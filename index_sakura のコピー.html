@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <title>Firebaseサンプル1</title>
+  </head>
+  <body>
+    <div>
+      <input id="name" placeholder="名前" />
+      <input id="message" placeholder="メッセージ" />
+      <button id="send">投稿</button>
+    </div>
+    <ul id="messages">
+    </ul> <!-- メッセージを表示しているところ -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+    <script>
+      // データベースの参照を準備 ボタンを押してたら送るとか
+      var firebaseRef = new Firebase("https://ydk-6f9ed.firebaseio.com"); // ... 1　expressになってもかわらない
+      var messagesRef = firebaseRef.child('messages'); // ... 2　　expressになってもかわらない
+
+      // 既存メッセージを表示
+      messagesRef.on('child_added', function(snapshot) { // ... 3
+        var msg = snapshot.val();
+        $('<li>').text(msg.name + ': ' + msg.body).prependTo('#messages');
+      });
+
+      $('#send').click(function() {
+        // 新規メッセージを投稿  送るところ
+        messagesRef.push({ // ...　囲んでる部分の描き方は変わらない
+          name: $('#name').val(),//かわる
+          body: $('#message').val()//かわる　firebaseの中のnameとbodyにデータを入れている　朝倉おはよ 入れ方自体は変わらない　実際に送るメッセージをフォームから撮ってきている場所　アドレスをとる場所によってかわる
+        });
+      });
+    </script>
+  </body>
+</html>
