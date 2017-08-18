@@ -1,0 +1,988 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sakura/.nodebrew/current/bin/node',
+1 verbose cli   '/Users/sakura/.nodebrew/current/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose node symlink /Users/sakura/.nodebrew/current/bin/node
+5 verbose read json /Users/sakura/Desktop/expressapp/file-upload/package.json
+6 warn package.json file-upload@0.0.0 No repository field.
+7 warn package.json file-upload@0.0.0 No readme data.
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/Users/sakura/Desktop/expressapp/file-upload',
+9 verbose install   [ 'body-parser',
+9 verbose install     'cookie-parser',
+9 verbose install     'debug',
+9 verbose install     'express',
+9 verbose install     'jade',
+9 verbose install     'morgan',
+9 verbose install     'serve-favicon',
+9 verbose install     'multer' ] ]
+10 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/package.json
+11 info preinstall file-upload@0.0.0
+12 verbose read json /Users/sakura/Desktop/expressapp/file-upload/node_modules/body-parser/package.json
+13 verbose read json /Users/sakura/Desktop/expressapp/file-upload/node_modules/cookie-parser/package.json
+14 verbose read json /Users/sakura/Desktop/expressapp/file-upload/node_modules/debug/package.json
+15 verbose read json /Users/sakura/Desktop/expressapp/file-upload/node_modules/express/package.json
+16 verbose read json /Users/sakura/Desktop/expressapp/file-upload/node_modules/morgan/package.json
+17 verbose read json /Users/sakura/Desktop/expressapp/file-upload/node_modules/serve-favicon/package.json
+18 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/package.json
+19 verbose readDependencies using package.json deps
+20 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/node_modules/body-parser/package.json
+21 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/node_modules/cookie-parser/package.json
+22 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/node_modules/debug/package.json
+23 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/node_modules/express/package.json
+24 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/node_modules/morgan/package.json
+25 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/node_modules/serve-favicon/package.json
+26 verbose already installed skipping debug@~2.6.3 /Users/sakura/Desktop/expressapp/file-upload
+27 verbose already installed skipping body-parser@~1.17.1 /Users/sakura/Desktop/expressapp/file-upload
+28 verbose already installed skipping cookie-parser@~1.4.3 /Users/sakura/Desktop/expressapp/file-upload
+29 verbose already installed skipping express@~4.15.2 /Users/sakura/Desktop/expressapp/file-upload
+30 verbose already installed skipping morgan@~1.8.1 /Users/sakura/Desktop/expressapp/file-upload
+31 verbose cache add [ 'jade@~1.11.0', null ]
+32 verbose cache add name=undefined spec="jade@~1.11.0" args=["jade@~1.11.0",null]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: 'jade@~1.11.0',
+33 verbose parsed url   path: 'jade@~1.11.0',
+33 verbose parsed url   href: 'jade@~1.11.0' }
+34 verbose cache add name="jade" spec="~1.11.0" args=["jade","~1.11.0"]
+35 verbose parsed url { protocol: null,
+35 verbose parsed url   slashes: null,
+35 verbose parsed url   auth: null,
+35 verbose parsed url   host: null,
+35 verbose parsed url   port: null,
+35 verbose parsed url   hostname: null,
+35 verbose parsed url   hash: null,
+35 verbose parsed url   search: null,
+35 verbose parsed url   query: null,
+35 verbose parsed url   pathname: '~1.11.0',
+35 verbose parsed url   path: '~1.11.0',
+35 verbose parsed url   href: '~1.11.0' }
+36 verbose addNamed [ 'jade', '~1.11.0' ]
+37 verbose addNamed [ null, '>=1.11.0- <1.12.0-' ]
+38 verbose already installed skipping serve-favicon@~2.4.2 /Users/sakura/Desktop/expressapp/file-upload
+39 silly lockFile 963bf43e-jade-1-11-0 jade@~1.11.0
+40 verbose lock jade@~1.11.0 /Users/sakura/.npm/963bf43e-jade-1-11-0.lock
+41 silly addNameRange { name: 'jade', range: '>=1.11.0- <1.12.0-', hasData: false }
+42 verbose cache add [ 'multer@~1.2.0', null ]
+43 verbose cache add name=undefined spec="multer@~1.2.0" args=["multer@~1.2.0",null]
+44 verbose parsed url { protocol: null,
+44 verbose parsed url   slashes: null,
+44 verbose parsed url   auth: null,
+44 verbose parsed url   host: null,
+44 verbose parsed url   port: null,
+44 verbose parsed url   hostname: null,
+44 verbose parsed url   hash: null,
+44 verbose parsed url   search: null,
+44 verbose parsed url   query: null,
+44 verbose parsed url   pathname: 'multer@~1.2.0',
+44 verbose parsed url   path: 'multer@~1.2.0',
+44 verbose parsed url   href: 'multer@~1.2.0' }
+45 verbose cache add name="multer" spec="~1.2.0" args=["multer","~1.2.0"]
+46 verbose parsed url { protocol: null,
+46 verbose parsed url   slashes: null,
+46 verbose parsed url   auth: null,
+46 verbose parsed url   host: null,
+46 verbose parsed url   port: null,
+46 verbose parsed url   hostname: null,
+46 verbose parsed url   hash: null,
+46 verbose parsed url   search: null,
+46 verbose parsed url   query: null,
+46 verbose parsed url   pathname: '~1.2.0',
+46 verbose parsed url   path: '~1.2.0',
+46 verbose parsed url   href: '~1.2.0' }
+47 verbose addNamed [ 'multer', '~1.2.0' ]
+48 verbose addNamed [ null, '>=1.2.0- <1.3.0-' ]
+49 silly lockFile 9b576d45-multer-1-2-0 multer@~1.2.0
+50 verbose lock multer@~1.2.0 /Users/sakura/.npm/9b576d45-multer-1-2-0.lock
+51 silly addNameRange { name: 'multer', range: '>=1.2.0- <1.3.0-', hasData: false }
+52 verbose url raw jade
+53 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+54 verbose url resolved https://registry.npmjs.org/jade
+55 info trying registry request attempt 1 at 12:31:29
+56 verbose etag "599165f6-27bd7"
+57 http GET https://registry.npmjs.org/jade
+58 verbose url raw multer
+59 verbose url resolving [ 'https://registry.npmjs.org/', './multer' ]
+60 verbose url resolved https://registry.npmjs.org/multer
+61 info trying registry request attempt 1 at 12:31:29
+62 verbose etag "5994080f-f607"
+63 http GET https://registry.npmjs.org/multer
+64 http 304 https://registry.npmjs.org/multer
+65 silly registry.get cb [ 304,
+65 silly registry.get   { date: 'Fri, 18 Aug 2017 03:31:29 GMT',
+65 silly registry.get     via: '1.1 varnish',
+65 silly registry.get     'cache-control': 'max-age=300',
+65 silly registry.get     etag: '"5994080f-f607"',
+65 silly registry.get     age: '198',
+65 silly registry.get     connection: 'keep-alive',
+65 silly registry.get     'x-served-by': 'cache-nrt6122-NRT',
+65 silly registry.get     'x-cache': 'HIT',
+65 silly registry.get     'x-cache-hits': '2',
+65 silly registry.get     'x-timer': 'S1503027090.651610,VS0,VE0',
+65 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+66 verbose etag multer from cache
+67 silly addNameRange number 2 { name: 'multer', range: '>=1.2.0- <1.3.0-', hasData: true }
+68 silly addNameRange versions [ 'multer',
+68 silly addNameRange   [ '0.0.1',
+68 silly addNameRange     '0.0.2',
+68 silly addNameRange     '0.0.3',
+68 silly addNameRange     '0.0.4',
+68 silly addNameRange     '0.0.5',
+68 silly addNameRange     '0.0.6',
+68 silly addNameRange     '0.0.7',
+68 silly addNameRange     '0.1.0',
+68 silly addNameRange     '0.1.1',
+68 silly addNameRange     '0.1.2',
+68 silly addNameRange     '0.1.3',
+68 silly addNameRange     '0.1.4',
+68 silly addNameRange     '0.1.6',
+68 silly addNameRange     '0.1.7',
+68 silly addNameRange     '0.1.8',
+68 silly addNameRange     '1.0.0',
+68 silly addNameRange     '1.0.1',
+68 silly addNameRange     '1.0.2',
+68 silly addNameRange     '1.0.3',
+68 silly addNameRange     '1.0.4',
+68 silly addNameRange     '1.0.5',
+68 silly addNameRange     '1.0.6',
+68 silly addNameRange     '1.1.0',
+68 silly addNameRange     '1.2.0',
+68 silly addNameRange     '2.0.0-alpha.1',
+68 silly addNameRange     '2.0.0-alpha.2',
+68 silly addNameRange     '1.2.1',
+68 silly addNameRange     '2.0.0-alpha.3',
+68 silly addNameRange     '1.3.0',
+68 silly addNameRange     '2.0.0-alpha.4',
+68 silly addNameRange     '2.0.0-alpha.5',
+68 silly addNameRange     '2.0.0-alpha.6' ] ]
+69 verbose addNamed [ 'multer', '1.2.1' ]
+70 verbose addNamed [ '1.2.1', '1.2.1' ]
+71 silly lockFile ef9c81b0-multer-1-2-1 multer@1.2.1
+72 verbose lock multer@1.2.1 /Users/sakura/.npm/ef9c81b0-multer-1-2-1.lock
+73 verbose read json /Users/sakura/.npm/multer/1.2.1/package/package.json
+74 silly lockFile ef9c81b0-multer-1-2-1 multer@1.2.1
+75 silly lockFile ef9c81b0-multer-1-2-1 multer@1.2.1
+76 silly lockFile 9b576d45-multer-1-2-0 multer@~1.2.0
+77 silly lockFile 9b576d45-multer-1-2-0 multer@~1.2.0
+78 http 304 https://registry.npmjs.org/jade
+79 silly registry.get cb [ 304,
+79 silly registry.get   { date: 'Fri, 18 Aug 2017 03:31:29 GMT',
+79 silly registry.get     via: '1.1 varnish',
+79 silly registry.get     'cache-control': 'max-age=300',
+79 silly registry.get     etag: '"599165f6-27bd7"',
+79 silly registry.get     age: '0',
+79 silly registry.get     connection: 'keep-alive',
+79 silly registry.get     'x-served-by': 'cache-nrt6129-NRT',
+79 silly registry.get     'x-cache': 'HIT',
+79 silly registry.get     'x-cache-hits': '1',
+79 silly registry.get     'x-timer': 'S1503027090.649167,VS0,VE565',
+79 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+80 verbose etag jade from cache
+81 silly addNameRange number 2 { name: 'jade', range: '>=1.11.0- <1.12.0-', hasData: true }
+82 silly addNameRange versions [ 'jade',
+82 silly addNameRange   [ '0.0.1',
+82 silly addNameRange     '0.0.2',
+82 silly addNameRange     '0.1.0',
+82 silly addNameRange     '0.2.0',
+82 silly addNameRange     '0.2.1',
+82 silly addNameRange     '0.2.2',
+82 silly addNameRange     '0.2.3',
+82 silly addNameRange     '0.2.4',
+82 silly addNameRange     '0.3.0',
+82 silly addNameRange     '0.4.0',
+82 silly addNameRange     '0.4.1',
+82 silly addNameRange     '0.5.0',
+82 silly addNameRange     '0.5.1',
+82 silly addNameRange     '0.5.2',
+82 silly addNameRange     '0.5.3',
+82 silly addNameRange     '0.5.4',
+82 silly addNameRange     '0.5.5',
+82 silly addNameRange     '0.5.6',
+82 silly addNameRange     '0.5.7',
+82 silly addNameRange     '0.6.0',
+82 silly addNameRange     '0.6.1',
+82 silly addNameRange     '0.6.3',
+82 silly addNameRange     '0.7.0',
+82 silly addNameRange     '0.7.1',
+82 silly addNameRange     '0.8.0',
+82 silly addNameRange     '0.8.1',
+82 silly addNameRange     '0.8.2',
+82 silly addNameRange     '0.8.3',
+82 silly addNameRange     '0.8.4',
+82 silly addNameRange     '0.8.5',
+82 silly addNameRange     '0.8.6',
+82 silly addNameRange     '0.8.7',
+82 silly addNameRange     '0.8.8',
+82 silly addNameRange     '0.8.9',
+82 silly addNameRange     '0.9.0',
+82 silly addNameRange     '0.9.1',
+82 silly addNameRange     '0.9.2',
+82 silly addNameRange     '0.9.3',
+82 silly addNameRange     '0.10.0',
+82 silly addNameRange     '0.10.1',
+82 silly addNameRange     '0.10.2',
+82 silly addNameRange     '0.10.3',
+82 silly addNameRange     '0.10.4',
+82 silly addNameRange     '0.10.5',
+82 silly addNameRange     '0.10.6',
+82 silly addNameRange     '0.10.7',
+82 silly addNameRange     '0.11.0',
+82 silly addNameRange     '0.11.1',
+82 silly addNameRange     '0.12.0',
+82 silly addNameRange     '0.12.1',
+82 silly addNameRange     '0.12.2',
+82 silly addNameRange     '0.12.3',
+82 silly addNameRange     '0.12.4',
+82 silly addNameRange     '0.13.0',
+82 silly addNameRange     '0.14.0',
+82 silly addNameRange     '0.14.1',
+82 silly addNameRange     '0.14.2',
+82 silly addNameRange     '0.15.0',
+82 silly addNameRange     '0.15.1',
+82 silly addNameRange     '0.15.2',
+82 silly addNameRange     '0.15.3',
+82 silly addNameRange     '0.15.4',
+82 silly addNameRange     '0.16.0',
+82 silly addNameRange     '0.16.1',
+82 silly addNameRange     '0.16.2',
+82 silly addNameRange     '0.16.3',
+82 silly addNameRange     '0.16.4',
+82 silly addNameRange     '0.17.0',
+82 silly addNameRange     '0.18.0',
+82 silly addNameRange     '0.19.0',
+82 silly addNameRange     '0.20.0',
+82 silly addNameRange     '0.20.1',
+82 silly addNameRange     '0.20.2',
+82 silly addNameRange     '0.20.3',
+82 silly addNameRange     '0.21.0',
+82 silly addNameRange     '0.22.0',
+82 silly addNameRange     '0.22.1',
+82 silly addNameRange     '0.23.0',
+82 silly addNameRange     '0.24.0',
+82 silly addNameRange     '0.25.0',
+82 silly addNameRange     '0.26.0',
+82 silly addNameRange     '0.26.1',
+82 silly addNameRange     '0.26.2',
+82 silly addNameRange     '0.26.3',
+82 silly addNameRange     '0.27.0',
+82 silly addNameRange     '0.27.1',
+82 silly addNameRange     '0.27.2',
+82 silly addNameRange     '0.27.3',
+82 silly addNameRange     '0.27.4',
+82 silly addNameRange     '0.27.5',
+82 silly addNameRange     '0.27.6',
+82 silly addNameRange     '0.27.7',
+82 silly addNameRange     '0.28.0',
+82 silly addNameRange     '0.28.1',
+82 silly addNameRange     '0.28.2',
+82 silly addNameRange     '0.29.0',
+82 silly addNameRange     '0.30.0',
+82 silly addNameRange     '0.31.0',
+82 silly addNameRange     '0.31.1',
+82 silly addNameRange     '0.31.2',
+82 silly addNameRange     '0.32.0',
+82 silly addNameRange     '0.33.0',
+82 silly addNameRange     '0.34.0',
+82 silly addNameRange     '0.34.1',
+82 silly addNameRange     '0.35.0',
+82 silly addNameRange     '1.0.0',
+82 silly addNameRange     '1.0.1',
+82 silly addNameRange     '1.0.2',
+82 silly addNameRange     '1.1.0',
+82 silly addNameRange     '1.1.1',
+82 silly addNameRange     '1.1.2',
+82 silly addNameRange     '1.1.3',
+82 silly addNameRange     '1.1.4',
+82 silly addNameRange     '1.1.5',
+82 silly addNameRange     '1.2.0',
+82 silly addNameRange     '1.3.0',
+82 silly addNameRange     '1.3.1',
+82 silly addNameRange     '1.4.0',
+82 silly addNameRange     '1.4.1',
+82 silly addNameRange     '1.4.2',
+82 silly addNameRange     '1.5.0',
+82 silly addNameRange     '1.6.0',
+82 silly addNameRange     '1.7.0',
+82 silly addNameRange     '1.8.0',
+82 silly addNameRange     '1.8.1',
+82 silly addNameRange     '1.8.2',
+82 silly addNameRange     '1.9.0',
+82 silly addNameRange     '1.9.1',
+82 silly addNameRange     '1.9.2',
+82 silly addNameRange     '1.10.0',
+82 silly addNameRange     '1.11.0' ] ]
+83 verbose addNamed [ 'jade', '1.11.0' ]
+84 verbose addNamed [ '1.11.0', '1.11.0' ]
+85 silly lockFile 3da033ff-jade-1-11-0 jade@1.11.0
+86 verbose lock jade@1.11.0 /Users/sakura/.npm/3da033ff-jade-1-11-0.lock
+87 warn deprecated jade@1.11.0: Jade has been renamed to pug, please install the latest version of pug instead of jade
+88 verbose read json /Users/sakura/.npm/jade/1.11.0/package/package.json
+89 silly lockFile 3da033ff-jade-1-11-0 jade@1.11.0
+90 silly lockFile 3da033ff-jade-1-11-0 jade@1.11.0
+91 silly lockFile 963bf43e-jade-1-11-0 jade@~1.11.0
+92 silly lockFile 963bf43e-jade-1-11-0 jade@~1.11.0
+93 silly resolved [ { name: 'multer',
+93 silly resolved     description: 'Middleware for handling `multipart/form-data`.',
+93 silly resolved     version: '1.2.1',
+93 silly resolved     contributors: [ [Object], [Object], [Object] ],
+93 silly resolved     license: 'MIT',
+93 silly resolved     repository: { type: 'git', url: 'expressjs/multer' },
+93 silly resolved     keywords:
+93 silly resolved      [ 'form',
+93 silly resolved        'post',
+93 silly resolved        'multipart',
+93 silly resolved        'form-data',
+93 silly resolved        'formdata',
+93 silly resolved        'express',
+93 silly resolved        'middleware' ],
+93 silly resolved     dependencies:
+93 silly resolved      { 'append-field': '^0.1.0',
+93 silly resolved        busboy: '^0.2.11',
+93 silly resolved        'concat-stream': '^1.5.0',
+93 silly resolved        mkdirp: '^0.5.1',
+93 silly resolved        'object-assign': '^3.0.0',
+93 silly resolved        'on-finished': '^2.3.0',
+93 silly resolved        'type-is': '^1.6.4',
+93 silly resolved        xtend: '^4.0.0' },
+93 silly resolved     devDependencies:
+93 silly resolved      { express: '^4.13.1',
+93 silly resolved        'form-data': '^1.0.0-rc1',
+93 silly resolved        'fs-temp': '^0.1.2',
+93 silly resolved        mocha: '^2.2.5',
+93 silly resolved        rimraf: '^2.4.1',
+93 silly resolved        standard: '^8.2.0',
+93 silly resolved        'testdata-w3c-json-form': '^0.2.0' },
+93 silly resolved     engines: { node: '>= 0.10.0' },
+93 silly resolved     files: [ 'LICENSE', 'index.js', 'storage/', 'lib/' ],
+93 silly resolved     scripts: { test: 'standard && mocha' },
+93 silly resolved     readme: '# Multer [![Build Status](https://travis-ci.org/expressjs/multer.svg?branch=master)](https://travis-ci.org/expressjs/multer) [![NPM version](https://badge.fury.io/js/multer.svg)](https://badge.fury.io/js/multer) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)\n\nMulter is a node.js middleware for handling `multipart/form-data`, which is primarily used for uploading files. It is written\non top of [busboy](https://github.com/mscdex/busboy) for maximum efficiency.\n\n**NOTE**: Multer will not process any form which is not multipart (`multipart/form-data`).\n\n## Translations \n\nThis README is also available in other languages:\n\n- [简体中文](https://github.com/expressjs/multer/blob/master/doc/README-zh-cn.md) (Chinese)\n\n## Installation\n\n```sh\n$ npm install --save multer\n```\n\n## Usage\n\nMulter adds a `body` object and a `file` or `files` object to the `request` object. The `body` object contains the values of the text fields of the form, the `file` or `files` object contains the files uploaded via the form.\n\nBasic usage example:\n\n```javascript\nvar express = require(\'express\')\nvar multer  = require(\'multer\')\nvar upload = multer({ dest: \'uploads/\' })\n\nvar app = express()\n\napp.post(\'/profile\', upload.single(\'avatar\'), function (req, res, next) {\n  // req.file is the `avatar` file\n  // req.body will hold the text fields, if there were any\n})\n\napp.post(\'/photos/upload\', upload.array(\'photos\', 12), function (req, res, next) {\n  // req.files is array of `photos` files\n  // req.body will contain the text fields, if there were any\n})\n\nvar cpUpload = upload.fields([{ name: \'avatar\', maxCount: 1 }, { name: \'gallery\', maxCount: 8 }])\napp.post(\'/cool-profile\', cpUpload, function (req, res, next) {\n  // req.files is an object (String -> Array) where fieldname is the key, and the value is array of files\n  //\n  // e.g.\n  //  req.files[\'avatar\'][0] -> File\n  //  req.files[\'gallery\'] -> Array\n  //\n  // req.body will contain the text fields, if there were any\n})\n```\n\nIn case you need to handle a text-only multipart form, you can use any of the multer methods (`.single()`, `.array()`, `fields()`). Here is an example using `.array()`:\n\n```javascript\nvar express = require(\'express\')\nvar app = express()\nvar multer  = require(\'multer\')\nvar upload = multer()\n\napp.post(\'/profile\', upload.array(), function (req, res, next) {\n  // req.body contains the text fields\n})\n```\n\n## API\n\n### File information\n\nEach file contains the following information:\n\nKey | Description | Note\n--- | --- | ---\n`fieldname` | Field name specified in the form |\n`originalname` | Name of the file on the user\'s computer |\n`encoding` | Encoding type of the file |\n`mimetype` | Mime type of the file |\n`size` | Size of the file in bytes |\n`destination` | The folder to which the file has been saved | `DiskStorage`\n`filename` | The name of the file within the `destination` | `DiskStorage`\n`path` | The full path to the uploaded file | `DiskStorage`\n`buffer` | A `Buffer` of the entire file | `MemoryStorage`\n\n### `multer(opts)`\n\nMulter accepts an options object, the most basic of which is the `dest`\nproperty, which tells Multer where to upload the files. In case you omit the\noptions object, the files will be kept in memory and never written to disk.\n\nBy default, Multer will rename the files so as to avoid naming conflicts. The\nrenaming function can be customized according to your needs.\n\nThe following are the options that can be passed to Multer.\n\nKey | Description\n--- | ---\n`dest` or `storage` | Where to store the files\n`fileFilter` | Function to control which files are accepted\n`limits` | Limits of the uploaded data\n\nIn an average web app, only `dest` might be required, and configured as shown in\nthe following example.\n\n```javascript\nvar upload = multer({ dest: \'uploads/\' })\n```\n\nIf you want more control over your uploads, you\'ll want to use the `storage`\noption instead of `dest`. Multer ships with storage engines `DiskStorage`\nand `MemoryStorage`; More engines are available from third parties.\n\n#### `.single(fieldname)`\n\nAccept a single file with the name `fieldname`. The single file will be stored\nin `req.file`.\n\n#### `.array(fieldname[, maxCount])`\n\nAccept an array of files, all with the name `fieldname`. Optionally error out if\nmore than `maxCount` files are uploaded. The array of files will be stored in\n`req.files`.\n\n#### `.fields(fields)`\n\nAccept a mix of files, specified by `fields`. An object with arrays of files\nwill be stored in `req.files`.\n\n`fields` should be an array of objects with `name` and optionally a `maxCount`.\nExample:\n\n```javascript\n[\n  { name: \'avatar\', maxCount: 1 },\n  { name: \'gallery\', maxCount: 8 }\n]\n```\n\n#### `.none()`\n\nAccept only text fields. If any file upload is made, error with code\n"LIMIT\\_UNEXPECTED\\_FILE" will be issued. This is the same as doing `upload.fields([])`.\n\n#### `.any()`\n\nAccepts all files that comes over the wire. An array of files will be stored in\n`req.files`.\n\n**WARNING:** Make sure that you always handle the files that a user uploads.\nNever add multer as a global middleware since a malicious user could upload\nfiles to a route that you didn\'t anticipate. Only use this function on routes\nwhere you are handling the uploaded files.\n\n### `storage`\n\n#### `DiskStorage`\n\nThe disk storage engine gives you full control on storing files to disk.\n\n```javascript\nvar storage = multer.diskStorage({\n  destination: function (req, file, cb) {\n    cb(null, \'/tmp/my-uploads\')\n  },\n  filename: function (req, file, cb) {\n    cb(null, file.fieldname + \'-\' + Date.now())\n  }\n})\n\nvar upload = multer({ storage: storage })\n```\n\nThere are two options available, `destination` and `filename`. They are both\nfunctions that determine where the file should be stored.\n\n`destination` is used to determine within which folder the uploaded files should\nbe stored. This can also be given as a `string` (e.g. `\'/tmp/uploads\'`). If no\n`destination` is given, the operating system\'s default directory for temporary\nfiles is used.\n\n**Note:** You are responsible for creating the directory when providing\n`destination` as a function. When passing a string, multer will make sure that\nthe directory is created for you.\n\n`filename` is used to determine what the file should be named inside the folder.\nIf no `filename` is given, each file will be given a random name that doesn\'t\ninclude any file extension.\n\n**Note:** Multer will not append any file extension for you, your function\nshould return a filename complete with an file extension.\n\nEach function gets passed both the request (`req`) and some information about\nthe file (`file`) to aid with the decision.\n\nNote that `req.body` might not have been fully populated yet. It depends on the\norder that the client transmits fields and files to the server.\n\n#### `MemoryStorage`\n\nThe memory storage engine stores the files in memory as `Buffer` objects. It\ndoesn\'t have any options.\n\n```javascript\nvar storage = multer.memoryStorage()\nvar upload = multer({ storage: storage })\n```\n\nWhen using memory storage, the file info will contain a field called\n`buffer` that contains the entire file.\n\n**WARNING**: Uploading very large files, or relatively small files in large\nnumbers very quickly, can cause your application to run out of memory when\nmemory storage is used.\n\n### `limits`\n\nAn object specifying the size limits of the following optional properties. Multer passes this object into busboy directly, and the details of the properties can be found on [busboy\'s page](https://github.com/mscdex/busboy#busboy-methods).\n\nThe following integer values are available:\n\nKey | Description | Default\n--- | --- | ---\n`fieldNameSize` | Max field name size | 100 bytes\n`fieldSize` | Max field value size | 1MB\n`fields` | Max number of non-file fields | Infinity\n`fileSize` | For multipart forms, the max file size (in bytes) | Infinity\n`files` | For multipart forms, the max number of file fields | Infinity\n`parts` | For multipart forms, the max number of parts (fields + files) | Infinity\n`headerPairs` | For multipart forms, the max number of header key=>value pairs to parse | 2000\n\nSpecifying the limits can help protect your site against denial of service (DoS) attacks.\n\n### `fileFilter`\n\nSet this to a function to control which files should be uploaded and which\nshould be skipped. The function should look like this:\n\n```javascript\nfunction fileFilter (req, file, cb) {\n\n  // The function should call `cb` with a boolean\n  // to indicate if the file should be accepted\n\n  // To reject this file pass `false`, like so:\n  cb(null, false)\n\n  // To accept the file pass `true`, like so:\n  cb(null, true)\n\n  // You can always pass an error if something goes wrong:\n  cb(new Error(\'I don\\\'t have a clue!\'))\n\n}\n```\n\n## Error handling\n\nWhen encountering an error, multer will delegate the error to express. You can\ndisplay a nice error page using [the standard express way](http://expressjs.com/guide/error-handling.html).\n\nIf you want to catch errors specifically from multer, you can call the\nmiddleware function by yourself.\n\n```javascript\nvar upload = multer().single(\'avatar\')\n\napp.post(\'/profile\', function (req, res) {\n  upload(req, res, function (err) {\n    if (err) {\n      // An error occurred when uploading\n      return\n    }\n\n    // Everything went fine\n  })\n})\n```\n\n## Custom storage engine\n\nFor information on how to build your own storage engine, see [Multer Storage Engine](https://github.com/expressjs/multer/blob/master/StorageEngine.md).\n\n## License\n\n[MIT](LICENSE)\n',
+93 silly resolved     readmeFilename: 'README.md',
+93 silly resolved     _id: 'multer@1.2.1',
+93 silly resolved     _from: 'multer@~1.2.0' },
+93 silly resolved   { name: 'jade',
+93 silly resolved     description: 'A clean, whitespace-sensitive template language for writing HTML',
+93 silly resolved     version: '1.11.0',
+93 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+93 silly resolved     maintainers:
+93 silly resolved      [ [Object],
+93 silly resolved        [Object],
+93 silly resolved        [Object],
+93 silly resolved        [Object],
+93 silly resolved        [Object],
+93 silly resolved        [Object],
+93 silly resolved        [Object],
+93 silly resolved        [Object] ],
+93 silly resolved     license: 'MIT',
+93 silly resolved     repository: { type: 'git', url: 'git://github.com/jadejs/jade' },
+93 silly resolved     main: 'lib',
+93 silly resolved     bin: { jade: './bin/jade.js' },
+93 silly resolved     dependencies:
+93 silly resolved      { 'character-parser': '1.2.1',
+93 silly resolved        'clean-css': '^3.1.9',
+93 silly resolved        commander: '~2.6.0',
+93 silly resolved        constantinople: '~3.0.1',
+93 silly resolved        jstransformer: '0.0.2',
+93 silly resolved        mkdirp: '~0.5.0',
+93 silly resolved        transformers: '2.1.0',
+93 silly resolved        'uglify-js': '^2.4.19',
+93 silly resolved        'void-elements': '~2.0.1',
+93 silly resolved        with: '~4.0.0' },
+93 silly resolved     devDependencies:
+93 silly resolved      { browserify: '*',
+93 silly resolved        'browserify-middleware': '~4.1.0',
+93 silly resolved        'code-mirror': '~3.22.0',
+93 silly resolved        'coffee-script': '*',
+93 silly resolved        coveralls: '^2.11.2',
+93 silly resolved        express: '~4.10.4',
+93 silly resolved        'github-basic': '^4.1.2',
+93 silly resolved        handle: '~1.0.0',
+93 silly resolved        'highlight-codemirror': '~4.1.0',
+93 silly resolved        inconsolata: '0.0.2',
+93 silly resolved        istanbul: '*',
+93 silly resolved        'jade-code-mirror': '~1.0.5',
+93 silly resolved        'jade-highlighter': '~1.0.5',
+93 silly resolved        'jstransformer-cdata': '0.0.3',
+93 silly resolved        'jstransformer-coffee-script': '0.0.2',
+93 silly resolved        'jstransformer-less': '^1.0.0',
+93 silly resolved        'jstransformer-marked': '0.0.1',
+93 silly resolved        'jstransformer-stylus': '0.0.1',
+93 silly resolved        'jstransformer-verbatim': '0.0.2',
+93 silly resolved        less: '<2.0.0',
+93 silly resolved        'less-file': '0.0.9',
+93 silly resolved        linify: '*',
+93 silly resolved        lsr: '^1.0.0',
+93 silly resolved        marked: '~0.3.3',
+93 silly resolved        mocha: '*',
+93 silly resolved        opener: '^1.3.0',
+93 silly resolved        'pull-request': '^3.0.0',
+93 silly resolved        rimraf: '^2.2.8',
+93 silly resolved        should: '*',
+93 silly resolved        stop: '^3.0.0-rc1',
+93 silly resolved        stylus: '*',
+93 silly resolved        twbs: '0.0.6',
+93 silly resolved        'uglify-js': '*' },
+93 silly resolved     component: { scripts: [Object] },
+93 silly resolved     scripts:
+93 silly resolved      { test: 'mocha -R spec',
+93 silly resolved        precoverage: 'rimraf coverage && rimraf cov-pt*',
+93 silly resolved        coverage: 'istanbul cover --report none --dir cov-pt0 node_modules/mocha/bin/_mocha -- -R dot',
+93 silly resolved        postcoverage: 'istanbul report --include cov-pt\\*/coverage.json && rimraf cov-pt*',
+93 silly resolved        coveralls: 'npm run coverage && cat ./coverage/lcov.info | coveralls',
+93 silly resolved        prepublish: 'npm prune && linify transform bin && npm run build',
+93 silly resolved        build: 'npm run compile',
+93 silly resolved        compile: 'npm run compile-full && npm run compile-runtime',
+93 silly resolved        'compile-full': 'browserify ./lib/index.js --standalone jade -x ./node_modules/transformers > jade.js',
+93 silly resolved        'compile-runtime': 'browserify ./lib/runtime.js --standalone jade > runtime.js' },
+93 silly resolved     browser: { fs: false, './lib/filters.js': './lib/filters-client.js' },
+93 silly resolved     homepage: 'http://jade-lang.com',
+93 silly resolved     readme: '# [![Jade - Node Template Engine](http://garthdb.com/img/jade_branding/jade-01.svg)](http://jade-lang.com/)\n\nFull documentation is at [jade-lang.com](http://jade-lang.com/)\n\n Jade is a high performance template engine heavily influenced by [Haml](http://haml-lang.com)\n and implemented with JavaScript for [node](http://nodejs.org) and browsers. For bug reports,\n feature requests and questions, [open an issue](https://github.com/jadejs/jade/issues/new).\n For discussion join the [chat room](https://gitter.im/jadejs/jade).\n\n You can test drive Jade online [here](http://naltatis.github.com/jade-syntax-docs).\n\n [![Build Status](https://img.shields.io/travis/jadejs/jade/master.svg?style=flat)](https://travis-ci.org/jadejs/jade)\n [![Coverage Status](https://img.shields.io/coveralls/jadejs/jade/master.svg?style=flat)](https://coveralls.io/r/jadejs/jade?branch=master)\n [![Dependency Status](https://img.shields.io/david/jadejs/jade.svg?style=flat)](https://david-dm.org/jadejs/jade)\n [![devDependencies Status](https://img.shields.io/david/dev/jadejs/jade.svg?style=flat)](https://david-dm.org/jadejs/jade#info=devDependencies)\n [![NPM version](https://img.shields.io/npm/v/jade.svg?style=flat)](http://badge.fury.io/js/jade)\n [![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://gitter.im/jadejs/jade?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n## Installation\n\nvia npm:\n\n```bash\n$ npm install jade\n```\n\n## Syntax\n\nJade is a clean, whitespace sensitive syntax for writing html.  Here is a simple example:\n\n```jade\ndoctype html\nhtml(lang="en")\n  head\n    title= pageTitle\n    script(type=\'text/javascript\').\n      if (foo) bar(1 + 5)\n  body\n    h1 Jade - node template engine\n    #container.col\n      if youAreUsingJade\n        p You are amazing\n      else\n        p Get on it!\n      p.\n        Jade is a terse and simple templating language with a\n        strong focus on performance and powerful features.\n```\n\nbecomes\n\n\n```html\n<!DOCTYPE html>\n<html lang="en">\n  <head>\n    <title>Jade</title>\n    <script type="text/javascript">\n      if (foo) bar(1 + 5)\n    </script>\n  </head>\n  <body>\n    <h1>Jade - node template engine</h1>\n    <div id="container" class="col">\n      <p>You are amazing</p>\n      <p>Jade is a terse and simple templating language with a strong focus on performance and powerful features.</p>\n    </div>\n  </body>\n</html>\n```\n\nThe official [jade tutorial](http://jade-lang.com/tutorial/) is a great place to start.  While that (and the syntax documentation) is being finished, you can view some of the old documentation [here](https://github.com/jadejs/jade/blob/master/jade.md) and [here](https://github.com/jadejs/jade/blob/master/jade-language.md)\n\n## API\n\nFor full API, see [jade-lang.com/api](http://jade-lang.com/api/)\n\n```js\nvar jade = require(\'jade\');\n\n// compile\nvar fn = jade.compile(\'string of jade\', options);\nvar html = fn(locals);\n\n// render\nvar html = jade.render(\'string of jade\', merge(options, locals));\n\n// renderFile\nvar html = jade.renderFile(\'filename.jade\', merge(options, locals));\n```\n\n### Options\n\n - `filename`  Used in exceptions, and required when using includes\n - `compileDebug`  When `false` no debug instrumentation is compiled\n - `pretty`    Add pretty-indentation whitespace to output _(false by default)_\n\n## Browser Support\n\n The latest version of jade can be download for the browser in standalone form from [here](https://github.com/jadejs/jade/raw/master/jade.js).  It only supports the very latest browsers though, and is a large file.  It is recommended that you pre-compile your jade templates to JavaScript and then just use the [runtime.js](https://github.com/jadejs/jade/raw/master/runtime.js) library on the client.\n\n To compile a template for use on the client using the command line, do:\n\n```console\n$ jade --client --no-debug filename.jade\n```\n\nwhich will produce `filename.js` containing the compiled template.\n\n## Command Line\n\nAfter installing the latest version of [node](http://nodejs.org/), install with:\n\n```console\n$ npm install jade -g\n```\n\nand run with\n\n```console\n$ jade --help\n```\n\n## Additional Resources\n\nTutorials:\n\n  - cssdeck interactive [Jade syntax tutorial](http://cssdeck.com/labs/learning-the-jade-templating-engine-syntax)\n  - cssdeck interactive [Jade logic tutorial](http://cssdeck.com/labs/jade-templating-tutorial-codecast-part-2)\n  - [Jade について。](https://gist.github.com/japboy/5402844) (A Japanese Tutorial)\n  - [Jade - 模板引擎](https://github.com/jadejs/jade/blob/master/Readme_zh-cn.md)\n\nImplementations in other languages:\n\n  - [php](http://github.com/everzet/jade.php)\n  - [scala](http://scalate.fusesource.org/versions/snapshot/documentation/scaml-reference.html)\n  - [ruby](https://github.com/slim-template/slim)\n  - [python](https://github.com/SyrusAkbary/pyjade)\n  - [java](https://github.com/neuland/jade4j)\n\nOther:\n\n  - [Emacs Mode](https://github.com/brianc/jade-mode)\n  - [Vim Syntax](https://github.com/digitaltoad/vim-jade)\n  - [TextMate Bundle](http://github.com/miksago/jade-tmbundle)\n  - [Coda/SubEtha syntax Mode](https://github.com/aaronmccall/jade.mode)\n  - [Screencasts](http://tjholowaychuk.com/post/1004255394/jade-screencast-template-engine-for-nodejs)\n  - [html2jade](https://github.com/donpark/html2jade) converter\n  - [jade2php](https://github.com/SE7ENSKY/jade2php) converter\n  - [Jade Server](https://github.com/ded/jade-server)  Ideal for building local prototypes apart from any application\n\n## License\n\nMIT\n',
+93 silly resolved     readmeFilename: 'README.md',
+93 silly resolved     bugs: { url: 'https://github.com/jadejs/jade/issues' },
+93 silly resolved     _id: 'jade@1.11.0',
+93 silly resolved     _from: 'jade@~1.11.0' } ]
+94 info install multer@1.2.1 into /Users/sakura/Desktop/expressapp/file-upload
+95 info install jade@1.11.0 into /Users/sakura/Desktop/expressapp/file-upload
+96 info installOne multer@1.2.1
+97 info installOne jade@1.11.0
+98 verbose from cache /Users/sakura/.npm/multer/1.2.1/package/package.json
+99 info /Users/sakura/Desktop/expressapp/file-upload/node_modules/multer unbuild
+100 verbose read json /Users/sakura/Desktop/expressapp/file-upload/node_modules/multer/package.json
+101 verbose from cache /Users/sakura/.npm/jade/1.11.0/package/package.json
+102 info /Users/sakura/Desktop/expressapp/file-upload/node_modules/jade unbuild
+103 verbose read json /Users/sakura/Desktop/expressapp/file-upload/node_modules/jade/package.json
+104 verbose tar unpack /Users/sakura/.npm/multer/1.2.1/package.tgz
+105 silly lockFile f707d46e--file-upload-node-modules-multer tar:///Users/sakura/Desktop/expressapp/file-upload/node_modules/multer
+106 verbose lock tar:///Users/sakura/Desktop/expressapp/file-upload/node_modules/multer /Users/sakura/.npm/f707d46e--file-upload-node-modules-multer.lock
+107 silly lockFile d0ee2940-ura-npm-multer-1-2-1-package-tgz tar:///Users/sakura/.npm/multer/1.2.1/package.tgz
+108 verbose lock tar:///Users/sakura/.npm/multer/1.2.1/package.tgz /Users/sakura/.npm/d0ee2940-ura-npm-multer-1-2-1-package-tgz.lock
+109 verbose tar unpack /Users/sakura/.npm/jade/1.11.0/package.tgz
+110 silly lockFile c8bbe9e7-pp-file-upload-node-modules-jade tar:///Users/sakura/Desktop/expressapp/file-upload/node_modules/jade
+111 verbose lock tar:///Users/sakura/Desktop/expressapp/file-upload/node_modules/jade /Users/sakura/.npm/c8bbe9e7-pp-file-upload-node-modules-jade.lock
+112 silly lockFile 1e3f7ae4-kura-npm-jade-1-11-0-package-tgz tar:///Users/sakura/.npm/jade/1.11.0/package.tgz
+113 verbose lock tar:///Users/sakura/.npm/jade/1.11.0/package.tgz /Users/sakura/.npm/1e3f7ae4-kura-npm-jade-1-11-0-package-tgz.lock
+114 silly gunzTarPerm modes [ '755', '644' ]
+115 silly gunzTarPerm modes [ '755', '644' ]
+116 silly gunzTarPerm extractEntry package.json
+117 silly gunzTarPerm extractEntry package.json
+118 silly gunzTarPerm extractEntry README.md
+119 silly gunzTarPerm extractEntry LICENSE
+120 silly gunzTarPerm extractEntry .npmignore
+121 silly gunzTarPerm extractEntry README.md
+122 silly gunzTarPerm extractEntry index.js
+123 silly gunzTarPerm extractEntry lib/counter.js
+124 silly gunzTarPerm extractEntry lib/file-appender.js
+125 silly gunzTarPerm extractEntry lib/make-error.js
+126 silly gunzTarPerm extractEntry lib/make-middleware.js
+127 silly gunzTarPerm extractEntry lib/remove-uploaded-files.js
+128 silly gunzTarPerm extractEntry storage/disk.js
+129 silly gunzTarPerm extractEntry storage/memory.js
+130 silly gunzTarPerm extractEntry LICENSE
+131 silly gunzTarPerm extractEntry release.js
+132 silly gunzTarPerm extractEntry jade.js
+133 silly gunzTarPerm extractEntry runtime.js
+134 silly gunzTarPerm extractEntry component.json
+135 silly gunzTarPerm extractEntry .release.json
+136 silly gunzTarPerm extractEntry lib/compiler.js
+137 silly gunzTarPerm extractEntry lib/filters-client.js
+138 silly gunzTarPerm extractEntry lib/filters.js
+139 silly gunzTarPerm extractEntry lib/index.js
+140 silly gunzTarPerm extractEntry lib/doctypes.js
+141 silly gunzTarPerm extractEntry lib/lexer.js
+142 silly gunzTarPerm extractEntry lib/runtime.js
+143 silly gunzTarPerm extractEntry lib/parser.js
+144 silly gunzTarPerm extractEntry lib/utils.js
+145 silly gunzTarPerm extractEntry lib/inline-tags.js
+146 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+147 silly gunzTarPerm extractEntry lib/nodes/code.js
+148 silly gunzTarPerm extractEntry lib/nodes/comment.js
+149 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+150 silly gunzTarPerm extractEntry lib/nodes/each.js
+151 silly gunzTarPerm extractEntry lib/nodes/case.js
+152 silly gunzTarPerm extractEntry lib/nodes/index.js
+153 silly gunzTarPerm extractEntry lib/nodes/literal.js
+154 silly gunzTarPerm extractEntry lib/nodes/mixin-block.js
+155 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+156 silly gunzTarPerm extractEntry lib/nodes/node.js
+157 silly gunzTarPerm extractEntry lib/nodes/block.js
+158 silly gunzTarPerm extractEntry lib/nodes/tag.js
+159 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+160 silly gunzTarPerm extractEntry lib/nodes/text.js
+161 silly gunzTarPerm extractEntry lib/nodes/filter.js
+162 silly gunzTarPerm extractEntry bin/jade.js
+163 silly gunzTarPerm extractEntry Readme_zh-cn.md
+164 silly gunzTarPerm extractEntry block-code.html
+165 verbose read json /Users/sakura/Desktop/expressapp/file-upload/node_modules/multer/package.json
+166 silly lockFile f707d46e--file-upload-node-modules-multer tar:///Users/sakura/Desktop/expressapp/file-upload/node_modules/multer
+167 silly lockFile f707d46e--file-upload-node-modules-multer tar:///Users/sakura/Desktop/expressapp/file-upload/node_modules/multer
+168 silly lockFile d0ee2940-ura-npm-multer-1-2-1-package-tgz tar:///Users/sakura/.npm/multer/1.2.1/package.tgz
+169 silly lockFile d0ee2940-ura-npm-multer-1-2-1-package-tgz tar:///Users/sakura/.npm/multer/1.2.1/package.tgz
+170 info preinstall multer@1.2.1
+171 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/node_modules/multer/package.json
+172 verbose readDependencies using package.json deps
+173 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/node_modules/multer/package.json
+174 verbose readDependencies using package.json deps
+175 verbose cache add [ 'append-field@^0.1.0', null ]
+176 verbose cache add name=undefined spec="append-field@^0.1.0" args=["append-field@^0.1.0",null]
+177 verbose parsed url { protocol: null,
+177 verbose parsed url   slashes: null,
+177 verbose parsed url   auth: null,
+177 verbose parsed url   host: null,
+177 verbose parsed url   port: null,
+177 verbose parsed url   hostname: null,
+177 verbose parsed url   hash: null,
+177 verbose parsed url   search: null,
+177 verbose parsed url   query: null,
+177 verbose parsed url   pathname: 'append-field@^0.1.0',
+177 verbose parsed url   path: 'append-field@^0.1.0',
+177 verbose parsed url   href: 'append-field@^0.1.0' }
+178 verbose cache add name="append-field" spec="^0.1.0" args=["append-field","^0.1.0"]
+179 verbose parsed url { protocol: null,
+179 verbose parsed url   slashes: null,
+179 verbose parsed url   auth: null,
+179 verbose parsed url   host: null,
+179 verbose parsed url   port: null,
+179 verbose parsed url   hostname: null,
+179 verbose parsed url   hash: null,
+179 verbose parsed url   search: null,
+179 verbose parsed url   query: null,
+179 verbose parsed url   pathname: '^0.1.0',
+179 verbose parsed url   path: '^0.1.0',
+179 verbose parsed url   href: '^0.1.0' }
+180 verbose addNamed [ 'append-field', '^0.1.0' ]
+181 verbose addNamed [ null, null ]
+182 silly lockFile 583c7635-append-field-0-1-0 append-field@^0.1.0
+183 verbose lock append-field@^0.1.0 /Users/sakura/.npm/583c7635-append-field-0-1-0.lock
+184 verbose cache add [ 'busboy@^0.2.11', null ]
+185 verbose cache add name=undefined spec="busboy@^0.2.11" args=["busboy@^0.2.11",null]
+186 verbose parsed url { protocol: null,
+186 verbose parsed url   slashes: null,
+186 verbose parsed url   auth: null,
+186 verbose parsed url   host: null,
+186 verbose parsed url   port: null,
+186 verbose parsed url   hostname: null,
+186 verbose parsed url   hash: null,
+186 verbose parsed url   search: null,
+186 verbose parsed url   query: null,
+186 verbose parsed url   pathname: 'busboy@^0.2.11',
+186 verbose parsed url   path: 'busboy@^0.2.11',
+186 verbose parsed url   href: 'busboy@^0.2.11' }
+187 verbose cache add name="busboy" spec="^0.2.11" args=["busboy","^0.2.11"]
+188 verbose parsed url { protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: '^0.2.11',
+188 verbose parsed url   path: '^0.2.11',
+188 verbose parsed url   href: '^0.2.11' }
+189 verbose addNamed [ 'busboy', '^0.2.11' ]
+190 verbose addNamed [ null, null ]
+191 silly lockFile e14b8632-busboy-0-2-11 busboy@^0.2.11
+192 verbose lock busboy@^0.2.11 /Users/sakura/.npm/e14b8632-busboy-0-2-11.lock
+193 info addNameTag [ 'append-field', '^0.1.0' ]
+194 verbose cache add [ 'mkdirp@^0.5.1', null ]
+195 verbose cache add name=undefined spec="mkdirp@^0.5.1" args=["mkdirp@^0.5.1",null]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: 'mkdirp@^0.5.1',
+196 verbose parsed url   path: 'mkdirp@^0.5.1',
+196 verbose parsed url   href: 'mkdirp@^0.5.1' }
+197 verbose cache add name="mkdirp" spec="^0.5.1" args=["mkdirp","^0.5.1"]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: '^0.5.1',
+198 verbose parsed url   path: '^0.5.1',
+198 verbose parsed url   href: '^0.5.1' }
+199 verbose addNamed [ 'mkdirp', '^0.5.1' ]
+200 verbose addNamed [ null, null ]
+201 silly lockFile 4515eb10-mkdirp-0-5-1 mkdirp@^0.5.1
+202 verbose lock mkdirp@^0.5.1 /Users/sakura/.npm/4515eb10-mkdirp-0-5-1.lock
+203 verbose cache add [ 'concat-stream@^1.5.0', null ]
+204 verbose cache add name=undefined spec="concat-stream@^1.5.0" args=["concat-stream@^1.5.0",null]
+205 verbose parsed url { protocol: null,
+205 verbose parsed url   slashes: null,
+205 verbose parsed url   auth: null,
+205 verbose parsed url   host: null,
+205 verbose parsed url   port: null,
+205 verbose parsed url   hostname: null,
+205 verbose parsed url   hash: null,
+205 verbose parsed url   search: null,
+205 verbose parsed url   query: null,
+205 verbose parsed url   pathname: 'concat-stream@^1.5.0',
+205 verbose parsed url   path: 'concat-stream@^1.5.0',
+205 verbose parsed url   href: 'concat-stream@^1.5.0' }
+206 verbose cache add name="concat-stream" spec="^1.5.0" args=["concat-stream","^1.5.0"]
+207 verbose parsed url { protocol: null,
+207 verbose parsed url   slashes: null,
+207 verbose parsed url   auth: null,
+207 verbose parsed url   host: null,
+207 verbose parsed url   port: null,
+207 verbose parsed url   hostname: null,
+207 verbose parsed url   hash: null,
+207 verbose parsed url   search: null,
+207 verbose parsed url   query: null,
+207 verbose parsed url   pathname: '^1.5.0',
+207 verbose parsed url   path: '^1.5.0',
+207 verbose parsed url   href: '^1.5.0' }
+208 verbose addNamed [ 'concat-stream', '^1.5.0' ]
+209 verbose addNamed [ null, null ]
+210 silly lockFile 03e20a45-concat-stream-1-5-0 concat-stream@^1.5.0
+211 verbose lock concat-stream@^1.5.0 /Users/sakura/.npm/03e20a45-concat-stream-1-5-0.lock
+212 info addNameTag [ 'busboy', '^0.2.11' ]
+213 info addNameTag [ 'mkdirp', '^0.5.1' ]
+214 verbose cache add [ 'object-assign@^3.0.0', null ]
+215 verbose cache add name=undefined spec="object-assign@^3.0.0" args=["object-assign@^3.0.0",null]
+216 verbose parsed url { protocol: null,
+216 verbose parsed url   slashes: null,
+216 verbose parsed url   auth: null,
+216 verbose parsed url   host: null,
+216 verbose parsed url   port: null,
+216 verbose parsed url   hostname: null,
+216 verbose parsed url   hash: null,
+216 verbose parsed url   search: null,
+216 verbose parsed url   query: null,
+216 verbose parsed url   pathname: 'object-assign@^3.0.0',
+216 verbose parsed url   path: 'object-assign@^3.0.0',
+216 verbose parsed url   href: 'object-assign@^3.0.0' }
+217 verbose cache add name="object-assign" spec="^3.0.0" args=["object-assign","^3.0.0"]
+218 verbose parsed url { protocol: null,
+218 verbose parsed url   slashes: null,
+218 verbose parsed url   auth: null,
+218 verbose parsed url   host: null,
+218 verbose parsed url   port: null,
+218 verbose parsed url   hostname: null,
+218 verbose parsed url   hash: null,
+218 verbose parsed url   search: null,
+218 verbose parsed url   query: null,
+218 verbose parsed url   pathname: '^3.0.0',
+218 verbose parsed url   path: '^3.0.0',
+218 verbose parsed url   href: '^3.0.0' }
+219 verbose addNamed [ 'object-assign', '^3.0.0' ]
+220 verbose addNamed [ null, null ]
+221 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+222 verbose lock object-assign@^3.0.0 /Users/sakura/.npm/2db6c36a-object-assign-3-0-0.lock
+223 info addNameTag [ 'concat-stream', '^1.5.0' ]
+224 verbose cache add [ 'on-finished@^2.3.0', null ]
+225 verbose cache add name=undefined spec="on-finished@^2.3.0" args=["on-finished@^2.3.0",null]
+226 verbose parsed url { protocol: null,
+226 verbose parsed url   slashes: null,
+226 verbose parsed url   auth: null,
+226 verbose parsed url   host: null,
+226 verbose parsed url   port: null,
+226 verbose parsed url   hostname: null,
+226 verbose parsed url   hash: null,
+226 verbose parsed url   search: null,
+226 verbose parsed url   query: null,
+226 verbose parsed url   pathname: 'on-finished@^2.3.0',
+226 verbose parsed url   path: 'on-finished@^2.3.0',
+226 verbose parsed url   href: 'on-finished@^2.3.0' }
+227 verbose cache add name="on-finished" spec="^2.3.0" args=["on-finished","^2.3.0"]
+228 verbose parsed url { protocol: null,
+228 verbose parsed url   slashes: null,
+228 verbose parsed url   auth: null,
+228 verbose parsed url   host: null,
+228 verbose parsed url   port: null,
+228 verbose parsed url   hostname: null,
+228 verbose parsed url   hash: null,
+228 verbose parsed url   search: null,
+228 verbose parsed url   query: null,
+228 verbose parsed url   pathname: '^2.3.0',
+228 verbose parsed url   path: '^2.3.0',
+228 verbose parsed url   href: '^2.3.0' }
+229 verbose addNamed [ 'on-finished', '^2.3.0' ]
+230 verbose addNamed [ null, null ]
+231 silly lockFile 4f8b0735-on-finished-2-3-0 on-finished@^2.3.0
+232 verbose lock on-finished@^2.3.0 /Users/sakura/.npm/4f8b0735-on-finished-2-3-0.lock
+233 info addNameTag [ 'object-assign', '^3.0.0' ]
+234 info addNameTag [ 'on-finished', '^2.3.0' ]
+235 verbose url raw append-field
+236 verbose url resolving [ 'https://registry.npmjs.org/', './append-field' ]
+237 verbose url resolved https://registry.npmjs.org/append-field
+238 info trying registry request attempt 1 at 12:31:30
+239 verbose etag "56c0939c-11d0"
+240 http GET https://registry.npmjs.org/append-field
+241 verbose cache add [ 'xtend@^4.0.0', null ]
+242 verbose cache add name=undefined spec="xtend@^4.0.0" args=["xtend@^4.0.0",null]
+243 verbose parsed url { protocol: null,
+243 verbose parsed url   slashes: null,
+243 verbose parsed url   auth: null,
+243 verbose parsed url   host: null,
+243 verbose parsed url   port: null,
+243 verbose parsed url   hostname: null,
+243 verbose parsed url   hash: null,
+243 verbose parsed url   search: null,
+243 verbose parsed url   query: null,
+243 verbose parsed url   pathname: 'xtend@^4.0.0',
+243 verbose parsed url   path: 'xtend@^4.0.0',
+243 verbose parsed url   href: 'xtend@^4.0.0' }
+244 verbose cache add name="xtend" spec="^4.0.0" args=["xtend","^4.0.0"]
+245 verbose parsed url { protocol: null,
+245 verbose parsed url   slashes: null,
+245 verbose parsed url   auth: null,
+245 verbose parsed url   host: null,
+245 verbose parsed url   port: null,
+245 verbose parsed url   hostname: null,
+245 verbose parsed url   hash: null,
+245 verbose parsed url   search: null,
+245 verbose parsed url   query: null,
+245 verbose parsed url   pathname: '^4.0.0',
+245 verbose parsed url   path: '^4.0.0',
+245 verbose parsed url   href: '^4.0.0' }
+246 verbose addNamed [ 'xtend', '^4.0.0' ]
+247 verbose addNamed [ null, null ]
+248 silly lockFile 409d9c3a-xtend-4-0-0 xtend@^4.0.0
+249 verbose lock xtend@^4.0.0 /Users/sakura/.npm/409d9c3a-xtend-4-0-0.lock
+250 verbose cache add [ 'type-is@^1.6.4', null ]
+251 verbose cache add name=undefined spec="type-is@^1.6.4" args=["type-is@^1.6.4",null]
+252 verbose parsed url { protocol: null,
+252 verbose parsed url   slashes: null,
+252 verbose parsed url   auth: null,
+252 verbose parsed url   host: null,
+252 verbose parsed url   port: null,
+252 verbose parsed url   hostname: null,
+252 verbose parsed url   hash: null,
+252 verbose parsed url   search: null,
+252 verbose parsed url   query: null,
+252 verbose parsed url   pathname: 'type-is@^1.6.4',
+252 verbose parsed url   path: 'type-is@^1.6.4',
+252 verbose parsed url   href: 'type-is@^1.6.4' }
+253 verbose cache add name="type-is" spec="^1.6.4" args=["type-is","^1.6.4"]
+254 verbose parsed url { protocol: null,
+254 verbose parsed url   slashes: null,
+254 verbose parsed url   auth: null,
+254 verbose parsed url   host: null,
+254 verbose parsed url   port: null,
+254 verbose parsed url   hostname: null,
+254 verbose parsed url   hash: null,
+254 verbose parsed url   search: null,
+254 verbose parsed url   query: null,
+254 verbose parsed url   pathname: '^1.6.4',
+254 verbose parsed url   path: '^1.6.4',
+254 verbose parsed url   href: '^1.6.4' }
+255 verbose addNamed [ 'type-is', '^1.6.4' ]
+256 verbose addNamed [ null, null ]
+257 silly lockFile b314cdf7-type-is-1-6-4 type-is@^1.6.4
+258 verbose lock type-is@^1.6.4 /Users/sakura/.npm/b314cdf7-type-is-1-6-4.lock
+259 info addNameTag [ 'xtend', '^4.0.0' ]
+260 verbose url raw busboy
+261 verbose url resolving [ 'https://registry.npmjs.org/', './busboy' ]
+262 verbose url resolved https://registry.npmjs.org/busboy
+263 info trying registry request attempt 1 at 12:31:30
+264 verbose etag "598bae4d-b544"
+265 http GET https://registry.npmjs.org/busboy
+266 verbose url raw mkdirp
+267 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+268 verbose url resolved https://registry.npmjs.org/mkdirp
+269 info trying registry request attempt 1 at 12:31:30
+270 verbose etag "5994b209-65d6"
+271 http GET https://registry.npmjs.org/mkdirp
+272 info addNameTag [ 'type-is', '^1.6.4' ]
+273 verbose url raw concat-stream
+274 verbose url resolving [ 'https://registry.npmjs.org/', './concat-stream' ]
+275 verbose url resolved https://registry.npmjs.org/concat-stream
+276 info trying registry request attempt 1 at 12:31:30
+277 verbose etag "5959264e-a966"
+278 http GET https://registry.npmjs.org/concat-stream
+279 verbose url raw object-assign
+280 verbose url resolving [ 'https://registry.npmjs.org/', './object-assign' ]
+281 verbose url resolved https://registry.npmjs.org/object-assign
+282 info trying registry request attempt 1 at 12:31:30
+283 verbose etag "595bae8c-5d5c"
+284 http GET https://registry.npmjs.org/object-assign
+285 verbose url raw on-finished
+286 verbose url resolving [ 'https://registry.npmjs.org/', './on-finished' ]
+287 verbose url resolved https://registry.npmjs.org/on-finished
+288 info trying registry request attempt 1 at 12:31:30
+289 verbose etag "595c3c1f-3b2f"
+290 http GET https://registry.npmjs.org/on-finished
+291 verbose url raw xtend
+292 verbose url resolving [ 'https://registry.npmjs.org/', './xtend' ]
+293 verbose url resolved https://registry.npmjs.org/xtend
+294 info trying registry request attempt 1 at 12:31:30
+295 verbose etag "5945d8de-51f4"
+296 http GET https://registry.npmjs.org/xtend
+297 verbose url raw type-is
+298 verbose url resolving [ 'https://registry.npmjs.org/', './type-is' ]
+299 verbose url resolved https://registry.npmjs.org/type-is
+300 info trying registry request attempt 1 at 12:31:30
+301 verbose etag "59771c10-ed69"
+302 http GET https://registry.npmjs.org/type-is
+303 http 304 https://registry.npmjs.org/append-field
+304 silly registry.get cb [ 304,
+304 silly registry.get   { date: 'Fri, 18 Aug 2017 03:31:30 GMT',
+304 silly registry.get     via: '1.1 varnish',
+304 silly registry.get     'cache-control': 'max-age=300',
+304 silly registry.get     etag: '"56c0939c-11d0"',
+304 silly registry.get     age: '198',
+304 silly registry.get     connection: 'keep-alive',
+304 silly registry.get     'x-served-by': 'cache-nrt6126-NRT',
+304 silly registry.get     'x-cache': 'HIT',
+304 silly registry.get     'x-cache-hits': '2',
+304 silly registry.get     'x-timer': 'S1503027091.504038,VS0,VE0',
+304 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+305 verbose etag append-field from cache
+306 http 304 https://registry.npmjs.org/busboy
+307 silly registry.get cb [ 304,
+307 silly registry.get   { date: 'Fri, 18 Aug 2017 03:31:30 GMT',
+307 silly registry.get     via: '1.1 varnish',
+307 silly registry.get     'cache-control': 'max-age=300',
+307 silly registry.get     etag: '"598bae4d-b544"',
+307 silly registry.get     age: '197',
+307 silly registry.get     connection: 'keep-alive',
+307 silly registry.get     'x-served-by': 'cache-nrt6134-NRT',
+307 silly registry.get     'x-cache': 'HIT',
+307 silly registry.get     'x-cache-hits': '1',
+307 silly registry.get     'x-timer': 'S1503027091.505320,VS0,VE1',
+307 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+308 verbose etag busboy from cache
+309 http 304 https://registry.npmjs.org/mkdirp
+310 silly registry.get cb [ 304,
+310 silly registry.get   { date: 'Fri, 18 Aug 2017 03:31:30 GMT',
+310 silly registry.get     via: '1.1 varnish',
+310 silly registry.get     'cache-control': 'max-age=300',
+310 silly registry.get     etag: '"5994b209-65d6"',
+310 silly registry.get     age: '197',
+310 silly registry.get     connection: 'keep-alive',
+310 silly registry.get     'x-served-by': 'cache-nrt6121-NRT',
+310 silly registry.get     'x-cache': 'HIT',
+310 silly registry.get     'x-cache-hits': '1',
+310 silly registry.get     'x-timer': 'S1503027091.504597,VS0,VE0',
+310 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+311 verbose etag mkdirp from cache
+312 http 304 https://registry.npmjs.org/concat-stream
+313 silly registry.get cb [ 304,
+313 silly registry.get   { date: 'Fri, 18 Aug 2017 03:31:30 GMT',
+313 silly registry.get     via: '1.1 varnish',
+313 silly registry.get     'cache-control': 'max-age=300',
+313 silly registry.get     etag: '"5959264e-a966"',
+313 silly registry.get     age: '197',
+313 silly registry.get     connection: 'keep-alive',
+313 silly registry.get     'x-served-by': 'cache-nrt6131-NRT',
+313 silly registry.get     'x-cache': 'HIT',
+313 silly registry.get     'x-cache-hits': '1',
+313 silly registry.get     'x-timer': 'S1503027091.504808,VS0,VE0',
+313 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+314 verbose etag concat-stream from cache
+315 http 304 https://registry.npmjs.org/on-finished
+316 silly registry.get cb [ 304,
+316 silly registry.get   { date: 'Fri, 18 Aug 2017 03:31:30 GMT',
+316 silly registry.get     via: '1.1 varnish',
+316 silly registry.get     'cache-control': 'max-age=300',
+316 silly registry.get     etag: '"595c3c1f-3b2f"',
+316 silly registry.get     age: '275',
+316 silly registry.get     connection: 'keep-alive',
+316 silly registry.get     'x-served-by': 'cache-nrt6126-NRT',
+316 silly registry.get     'x-cache': 'HIT',
+316 silly registry.get     'x-cache-hits': '2',
+316 silly registry.get     'x-timer': 'S1503027091.509951,VS0,VE0',
+316 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+317 verbose etag on-finished from cache
+318 http 304 https://registry.npmjs.org/object-assign
+319 silly registry.get cb [ 304,
+319 silly registry.get   { date: 'Fri, 18 Aug 2017 03:31:30 GMT',
+319 silly registry.get     via: '1.1 varnish',
+319 silly registry.get     'cache-control': 'max-age=300',
+319 silly registry.get     etag: '"595bae8c-5d5c"',
+319 silly registry.get     age: '45',
+319 silly registry.get     connection: 'keep-alive',
+319 silly registry.get     'x-served-by': 'cache-nrt6124-NRT',
+319 silly registry.get     'x-cache': 'HIT',
+319 silly registry.get     'x-cache-hits': '1',
+319 silly registry.get     'x-timer': 'S1503027091.510022,VS0,VE0',
+319 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+320 verbose etag object-assign from cache
+321 http 304 https://registry.npmjs.org/xtend
+322 silly registry.get cb [ 304,
+322 silly registry.get   { date: 'Fri, 18 Aug 2017 03:31:30 GMT',
+322 silly registry.get     via: '1.1 varnish',
+322 silly registry.get     'cache-control': 'max-age=300',
+322 silly registry.get     etag: '"5945d8de-51f4"',
+322 silly registry.get     age: '96',
+322 silly registry.get     connection: 'keep-alive',
+322 silly registry.get     'x-served-by': 'cache-nrt6134-NRT',
+322 silly registry.get     'x-cache': 'HIT',
+322 silly registry.get     'x-cache-hits': '1',
+322 silly registry.get     'x-timer': 'S1503027091.513520,VS0,VE1',
+322 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+323 verbose etag xtend from cache
+324 http 304 https://registry.npmjs.org/type-is
+325 silly registry.get cb [ 304,
+325 silly registry.get   { date: 'Fri, 18 Aug 2017 03:31:30 GMT',
+325 silly registry.get     via: '1.1 varnish',
+325 silly registry.get     'cache-control': 'max-age=300',
+325 silly registry.get     etag: '"59771c10-ed69"',
+325 silly registry.get     age: '275',
+325 silly registry.get     connection: 'keep-alive',
+325 silly registry.get     'x-served-by': 'cache-nrt6121-NRT',
+325 silly registry.get     'x-cache': 'HIT',
+325 silly registry.get     'x-cache-hits': '2',
+325 silly registry.get     'x-timer': 'S1503027091.513830,VS0,VE0',
+325 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+326 verbose etag type-is from cache
+327 silly lockFile 583c7635-append-field-0-1-0 append-field@^0.1.0
+328 silly lockFile 583c7635-append-field-0-1-0 append-field@^0.1.0
+329 silly lockFile e14b8632-busboy-0-2-11 busboy@^0.2.11
+330 silly lockFile e14b8632-busboy-0-2-11 busboy@^0.2.11
+331 silly lockFile 4515eb10-mkdirp-0-5-1 mkdirp@^0.5.1
+332 silly lockFile 4515eb10-mkdirp-0-5-1 mkdirp@^0.5.1
+333 verbose about to build /Users/sakura/Desktop/expressapp/file-upload/node_modules/multer
+334 info /Users/sakura/Desktop/expressapp/file-upload/node_modules/multer unbuild
+335 verbose from cache /Users/sakura/Desktop/expressapp/file-upload/node_modules/multer/package.json
+336 info preuninstall multer@1.2.1
+337 silly lockFile 03e20a45-concat-stream-1-5-0 concat-stream@^1.5.0
+338 silly lockFile 03e20a45-concat-stream-1-5-0 concat-stream@^1.5.0
+339 silly lockFile 4f8b0735-on-finished-2-3-0 on-finished@^2.3.0
+340 silly lockFile 4f8b0735-on-finished-2-3-0 on-finished@^2.3.0
+341 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+342 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+343 silly lockFile 409d9c3a-xtend-4-0-0 xtend@^4.0.0
+344 silly lockFile 409d9c3a-xtend-4-0-0 xtend@^4.0.0
+345 silly lockFile b314cdf7-type-is-1-6-4 type-is@^1.6.4
+346 silly lockFile b314cdf7-type-is-1-6-4 type-is@^1.6.4
+347 info uninstall multer@1.2.1
+348 verbose true,/Users/sakura/Desktop/expressapp/file-upload/node_modules,/Users/sakura/Desktop/expressapp/file-upload/node_modules unbuild multer@1.2.1
+349 info postuninstall multer@1.2.1
+350 error Error: No compatible version found: append-field@'^0.1.0'
+350 error Valid install targets:
+350 error ["0.1.0","1.0.0"]
+350 error     at installTargetsError (/Users/sakura/.nodebrew/node/v0.10.12/lib/node_modules/npm/lib/cache.js:719:10)
+350 error     at /Users/sakura/.nodebrew/node/v0.10.12/lib/node_modules/npm/lib/cache.js:641:10
+350 error     at saved (/Users/sakura/.nodebrew/node/v0.10.12/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+350 error     at Object.oncomplete (fs.js:107:15)
+351 error If you need help, you may report this log at:
+351 error     <http://github.com/isaacs/npm/issues>
+351 error or email it to:
+351 error     <npm-@googlegroups.com>
+352 error System Darwin 15.6.0
+353 error command "/Users/sakura/.nodebrew/current/bin/node" "/Users/sakura/.nodebrew/current/bin/npm" "install"
+354 error cwd /Users/sakura/Desktop/expressapp/file-upload
+355 error node -v v0.10.12
+356 error npm -v 1.2.32
+357 verbose exit [ 1, true ]

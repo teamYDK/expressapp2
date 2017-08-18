@@ -1,0 +1,953 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sakura/.nodebrew/current/bin/node',
+1 verbose cli   '/Users/sakura/.nodebrew/current/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@1.2.32
+3 info using node@v0.10.12
+4 verbose node symlink /Users/sakura/.nodebrew/current/bin/node
+5 verbose read json /Users/sakura/Desktop/expressapp/upload/package.json
+6 warn package.json upload@0.0.0 No repository field.
+7 warn package.json upload@0.0.0 No readme data.
+8 verbose readDependencies using package.json deps
+9 verbose install where, deps [ '/Users/sakura/Desktop/expressapp/upload',
+9 verbose install   [ 'body-parser',
+9 verbose install     'cookie-parser',
+9 verbose install     'debug',
+9 verbose install     'express',
+9 verbose install     'jade',
+9 verbose install     'morgan',
+9 verbose install     'serve-favicon' ] ]
+10 verbose from cache /Users/sakura/Desktop/expressapp/upload/package.json
+11 info preinstall upload@0.0.0
+12 verbose read json /Users/sakura/Desktop/expressapp/upload/node_modules/body-parser/package.json
+13 verbose read json /Users/sakura/Desktop/expressapp/upload/node_modules/cookie-parser/package.json
+14 verbose read json /Users/sakura/Desktop/expressapp/upload/node_modules/debug/package.json
+15 verbose read json /Users/sakura/Desktop/expressapp/upload/node_modules/express/package.json
+16 verbose read json /Users/sakura/Desktop/expressapp/upload/node_modules/morgan/package.json
+17 verbose read json /Users/sakura/Desktop/expressapp/upload/node_modules/serve-favicon/package.json
+18 verbose from cache /Users/sakura/Desktop/expressapp/upload/package.json
+19 verbose readDependencies using package.json deps
+20 verbose from cache /Users/sakura/Desktop/expressapp/upload/node_modules/body-parser/package.json
+21 verbose from cache /Users/sakura/Desktop/expressapp/upload/node_modules/cookie-parser/package.json
+22 verbose from cache /Users/sakura/Desktop/expressapp/upload/node_modules/debug/package.json
+23 verbose from cache /Users/sakura/Desktop/expressapp/upload/node_modules/express/package.json
+24 verbose from cache /Users/sakura/Desktop/expressapp/upload/node_modules/morgan/package.json
+25 verbose from cache /Users/sakura/Desktop/expressapp/upload/node_modules/serve-favicon/package.json
+26 verbose already installed skipping body-parser@~1.17.1 /Users/sakura/Desktop/expressapp/upload
+27 verbose already installed skipping cookie-parser@~1.4.3 /Users/sakura/Desktop/expressapp/upload
+28 verbose already installed skipping express@~4.15.2 /Users/sakura/Desktop/expressapp/upload
+29 verbose already installed skipping debug@~2.6.3 /Users/sakura/Desktop/expressapp/upload
+30 verbose cache add [ 'jade@~1.11.0', null ]
+31 verbose cache add name=undefined spec="jade@~1.11.0" args=["jade@~1.11.0",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'jade@~1.11.0',
+32 verbose parsed url   path: 'jade@~1.11.0',
+32 verbose parsed url   href: 'jade@~1.11.0' }
+33 verbose cache add name="jade" spec="~1.11.0" args=["jade","~1.11.0"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '~1.11.0',
+34 verbose parsed url   path: '~1.11.0',
+34 verbose parsed url   href: '~1.11.0' }
+35 verbose addNamed [ 'jade', '~1.11.0' ]
+36 verbose addNamed [ null, '>=1.11.0- <1.12.0-' ]
+37 verbose already installed skipping morgan@~1.8.1 /Users/sakura/Desktop/expressapp/upload
+38 silly lockFile 963bf43e-jade-1-11-0 jade@~1.11.0
+39 verbose lock jade@~1.11.0 /Users/sakura/.npm/963bf43e-jade-1-11-0.lock
+40 verbose already installed skipping serve-favicon@~2.4.2 /Users/sakura/Desktop/expressapp/upload
+41 silly addNameRange { name: 'jade', range: '>=1.11.0- <1.12.0-', hasData: false }
+42 verbose url raw jade
+43 verbose url resolving [ 'https://registry.npmjs.org/', './jade' ]
+44 verbose url resolved https://registry.npmjs.org/jade
+45 info trying registry request attempt 1 at 10:51:45
+46 verbose etag "599165f6-27bd7"
+47 http GET https://registry.npmjs.org/jade
+48 http 304 https://registry.npmjs.org/jade
+49 silly registry.get cb [ 304,
+49 silly registry.get   { date: 'Fri, 18 Aug 2017 01:51:45 GMT',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     'cache-control': 'max-age=300',
+49 silly registry.get     etag: '"599165f6-27bd7"',
+49 silly registry.get     age: '0',
+49 silly registry.get     connection: 'keep-alive',
+49 silly registry.get     'x-served-by': 'cache-nrt6120-NRT',
+49 silly registry.get     'x-cache': 'HIT',
+49 silly registry.get     'x-cache-hits': '1',
+49 silly registry.get     'x-timer': 'S1503021106.918059,VS0,VE133',
+49 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+50 verbose etag jade from cache
+51 silly addNameRange number 2 { name: 'jade', range: '>=1.11.0- <1.12.0-', hasData: true }
+52 silly addNameRange versions [ 'jade',
+52 silly addNameRange   [ '0.0.1',
+52 silly addNameRange     '0.0.2',
+52 silly addNameRange     '0.1.0',
+52 silly addNameRange     '0.2.0',
+52 silly addNameRange     '0.2.1',
+52 silly addNameRange     '0.2.2',
+52 silly addNameRange     '0.2.3',
+52 silly addNameRange     '0.2.4',
+52 silly addNameRange     '0.3.0',
+52 silly addNameRange     '0.4.0',
+52 silly addNameRange     '0.4.1',
+52 silly addNameRange     '0.5.0',
+52 silly addNameRange     '0.5.1',
+52 silly addNameRange     '0.5.2',
+52 silly addNameRange     '0.5.3',
+52 silly addNameRange     '0.5.4',
+52 silly addNameRange     '0.5.5',
+52 silly addNameRange     '0.5.6',
+52 silly addNameRange     '0.5.7',
+52 silly addNameRange     '0.6.0',
+52 silly addNameRange     '0.6.1',
+52 silly addNameRange     '0.6.3',
+52 silly addNameRange     '0.7.0',
+52 silly addNameRange     '0.7.1',
+52 silly addNameRange     '0.8.0',
+52 silly addNameRange     '0.8.1',
+52 silly addNameRange     '0.8.2',
+52 silly addNameRange     '0.8.3',
+52 silly addNameRange     '0.8.4',
+52 silly addNameRange     '0.8.5',
+52 silly addNameRange     '0.8.6',
+52 silly addNameRange     '0.8.7',
+52 silly addNameRange     '0.8.8',
+52 silly addNameRange     '0.8.9',
+52 silly addNameRange     '0.9.0',
+52 silly addNameRange     '0.9.1',
+52 silly addNameRange     '0.9.2',
+52 silly addNameRange     '0.9.3',
+52 silly addNameRange     '0.10.0',
+52 silly addNameRange     '0.10.1',
+52 silly addNameRange     '0.10.2',
+52 silly addNameRange     '0.10.3',
+52 silly addNameRange     '0.10.4',
+52 silly addNameRange     '0.10.5',
+52 silly addNameRange     '0.10.6',
+52 silly addNameRange     '0.10.7',
+52 silly addNameRange     '0.11.0',
+52 silly addNameRange     '0.11.1',
+52 silly addNameRange     '0.12.0',
+52 silly addNameRange     '0.12.1',
+52 silly addNameRange     '0.12.2',
+52 silly addNameRange     '0.12.3',
+52 silly addNameRange     '0.12.4',
+52 silly addNameRange     '0.13.0',
+52 silly addNameRange     '0.14.0',
+52 silly addNameRange     '0.14.1',
+52 silly addNameRange     '0.14.2',
+52 silly addNameRange     '0.15.0',
+52 silly addNameRange     '0.15.1',
+52 silly addNameRange     '0.15.2',
+52 silly addNameRange     '0.15.3',
+52 silly addNameRange     '0.15.4',
+52 silly addNameRange     '0.16.0',
+52 silly addNameRange     '0.16.1',
+52 silly addNameRange     '0.16.2',
+52 silly addNameRange     '0.16.3',
+52 silly addNameRange     '0.16.4',
+52 silly addNameRange     '0.17.0',
+52 silly addNameRange     '0.18.0',
+52 silly addNameRange     '0.19.0',
+52 silly addNameRange     '0.20.0',
+52 silly addNameRange     '0.20.1',
+52 silly addNameRange     '0.20.2',
+52 silly addNameRange     '0.20.3',
+52 silly addNameRange     '0.21.0',
+52 silly addNameRange     '0.22.0',
+52 silly addNameRange     '0.22.1',
+52 silly addNameRange     '0.23.0',
+52 silly addNameRange     '0.24.0',
+52 silly addNameRange     '0.25.0',
+52 silly addNameRange     '0.26.0',
+52 silly addNameRange     '0.26.1',
+52 silly addNameRange     '0.26.2',
+52 silly addNameRange     '0.26.3',
+52 silly addNameRange     '0.27.0',
+52 silly addNameRange     '0.27.1',
+52 silly addNameRange     '0.27.2',
+52 silly addNameRange     '0.27.3',
+52 silly addNameRange     '0.27.4',
+52 silly addNameRange     '0.27.5',
+52 silly addNameRange     '0.27.6',
+52 silly addNameRange     '0.27.7',
+52 silly addNameRange     '0.28.0',
+52 silly addNameRange     '0.28.1',
+52 silly addNameRange     '0.28.2',
+52 silly addNameRange     '0.29.0',
+52 silly addNameRange     '0.30.0',
+52 silly addNameRange     '0.31.0',
+52 silly addNameRange     '0.31.1',
+52 silly addNameRange     '0.31.2',
+52 silly addNameRange     '0.32.0',
+52 silly addNameRange     '0.33.0',
+52 silly addNameRange     '0.34.0',
+52 silly addNameRange     '0.34.1',
+52 silly addNameRange     '0.35.0',
+52 silly addNameRange     '1.0.0',
+52 silly addNameRange     '1.0.1',
+52 silly addNameRange     '1.0.2',
+52 silly addNameRange     '1.1.0',
+52 silly addNameRange     '1.1.1',
+52 silly addNameRange     '1.1.2',
+52 silly addNameRange     '1.1.3',
+52 silly addNameRange     '1.1.4',
+52 silly addNameRange     '1.1.5',
+52 silly addNameRange     '1.2.0',
+52 silly addNameRange     '1.3.0',
+52 silly addNameRange     '1.3.1',
+52 silly addNameRange     '1.4.0',
+52 silly addNameRange     '1.4.1',
+52 silly addNameRange     '1.4.2',
+52 silly addNameRange     '1.5.0',
+52 silly addNameRange     '1.6.0',
+52 silly addNameRange     '1.7.0',
+52 silly addNameRange     '1.8.0',
+52 silly addNameRange     '1.8.1',
+52 silly addNameRange     '1.8.2',
+52 silly addNameRange     '1.9.0',
+52 silly addNameRange     '1.9.1',
+52 silly addNameRange     '1.9.2',
+52 silly addNameRange     '1.10.0',
+52 silly addNameRange     '1.11.0' ] ]
+53 verbose addNamed [ 'jade', '1.11.0' ]
+54 verbose addNamed [ '1.11.0', '1.11.0' ]
+55 silly lockFile 3da033ff-jade-1-11-0 jade@1.11.0
+56 verbose lock jade@1.11.0 /Users/sakura/.npm/3da033ff-jade-1-11-0.lock
+57 warn deprecated jade@1.11.0: Jade has been renamed to pug, please install the latest version of pug instead of jade
+58 verbose read json /Users/sakura/.npm/jade/1.11.0/package/package.json
+59 silly lockFile 3da033ff-jade-1-11-0 jade@1.11.0
+60 silly lockFile 3da033ff-jade-1-11-0 jade@1.11.0
+61 silly lockFile 963bf43e-jade-1-11-0 jade@~1.11.0
+62 silly lockFile 963bf43e-jade-1-11-0 jade@~1.11.0
+63 silly resolved [ { name: 'jade',
+63 silly resolved     description: 'A clean, whitespace-sensitive template language for writing HTML',
+63 silly resolved     version: '1.11.0',
+63 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+63 silly resolved     maintainers:
+63 silly resolved      [ [Object],
+63 silly resolved        [Object],
+63 silly resolved        [Object],
+63 silly resolved        [Object],
+63 silly resolved        [Object],
+63 silly resolved        [Object],
+63 silly resolved        [Object],
+63 silly resolved        [Object] ],
+63 silly resolved     license: 'MIT',
+63 silly resolved     repository: { type: 'git', url: 'git://github.com/jadejs/jade' },
+63 silly resolved     main: 'lib',
+63 silly resolved     bin: { jade: './bin/jade.js' },
+63 silly resolved     dependencies:
+63 silly resolved      { 'character-parser': '1.2.1',
+63 silly resolved        'clean-css': '^3.1.9',
+63 silly resolved        commander: '~2.6.0',
+63 silly resolved        constantinople: '~3.0.1',
+63 silly resolved        jstransformer: '0.0.2',
+63 silly resolved        mkdirp: '~0.5.0',
+63 silly resolved        transformers: '2.1.0',
+63 silly resolved        'uglify-js': '^2.4.19',
+63 silly resolved        'void-elements': '~2.0.1',
+63 silly resolved        with: '~4.0.0' },
+63 silly resolved     devDependencies:
+63 silly resolved      { browserify: '*',
+63 silly resolved        'browserify-middleware': '~4.1.0',
+63 silly resolved        'code-mirror': '~3.22.0',
+63 silly resolved        'coffee-script': '*',
+63 silly resolved        coveralls: '^2.11.2',
+63 silly resolved        express: '~4.10.4',
+63 silly resolved        'github-basic': '^4.1.2',
+63 silly resolved        handle: '~1.0.0',
+63 silly resolved        'highlight-codemirror': '~4.1.0',
+63 silly resolved        inconsolata: '0.0.2',
+63 silly resolved        istanbul: '*',
+63 silly resolved        'jade-code-mirror': '~1.0.5',
+63 silly resolved        'jade-highlighter': '~1.0.5',
+63 silly resolved        'jstransformer-cdata': '0.0.3',
+63 silly resolved        'jstransformer-coffee-script': '0.0.2',
+63 silly resolved        'jstransformer-less': '^1.0.0',
+63 silly resolved        'jstransformer-marked': '0.0.1',
+63 silly resolved        'jstransformer-stylus': '0.0.1',
+63 silly resolved        'jstransformer-verbatim': '0.0.2',
+63 silly resolved        less: '<2.0.0',
+63 silly resolved        'less-file': '0.0.9',
+63 silly resolved        linify: '*',
+63 silly resolved        lsr: '^1.0.0',
+63 silly resolved        marked: '~0.3.3',
+63 silly resolved        mocha: '*',
+63 silly resolved        opener: '^1.3.0',
+63 silly resolved        'pull-request': '^3.0.0',
+63 silly resolved        rimraf: '^2.2.8',
+63 silly resolved        should: '*',
+63 silly resolved        stop: '^3.0.0-rc1',
+63 silly resolved        stylus: '*',
+63 silly resolved        twbs: '0.0.6',
+63 silly resolved        'uglify-js': '*' },
+63 silly resolved     component: { scripts: [Object] },
+63 silly resolved     scripts:
+63 silly resolved      { test: 'mocha -R spec',
+63 silly resolved        precoverage: 'rimraf coverage && rimraf cov-pt*',
+63 silly resolved        coverage: 'istanbul cover --report none --dir cov-pt0 node_modules/mocha/bin/_mocha -- -R dot',
+63 silly resolved        postcoverage: 'istanbul report --include cov-pt\\*/coverage.json && rimraf cov-pt*',
+63 silly resolved        coveralls: 'npm run coverage && cat ./coverage/lcov.info | coveralls',
+63 silly resolved        prepublish: 'npm prune && linify transform bin && npm run build',
+63 silly resolved        build: 'npm run compile',
+63 silly resolved        compile: 'npm run compile-full && npm run compile-runtime',
+63 silly resolved        'compile-full': 'browserify ./lib/index.js --standalone jade -x ./node_modules/transformers > jade.js',
+63 silly resolved        'compile-runtime': 'browserify ./lib/runtime.js --standalone jade > runtime.js' },
+63 silly resolved     browser: { fs: false, './lib/filters.js': './lib/filters-client.js' },
+63 silly resolved     homepage: 'http://jade-lang.com',
+63 silly resolved     readme: '# [![Jade - Node Template Engine](http://garthdb.com/img/jade_branding/jade-01.svg)](http://jade-lang.com/)\n\nFull documentation is at [jade-lang.com](http://jade-lang.com/)\n\n Jade is a high performance template engine heavily influenced by [Haml](http://haml-lang.com)\n and implemented with JavaScript for [node](http://nodejs.org) and browsers. For bug reports,\n feature requests and questions, [open an issue](https://github.com/jadejs/jade/issues/new).\n For discussion join the [chat room](https://gitter.im/jadejs/jade).\n\n You can test drive Jade online [here](http://naltatis.github.com/jade-syntax-docs).\n\n [![Build Status](https://img.shields.io/travis/jadejs/jade/master.svg?style=flat)](https://travis-ci.org/jadejs/jade)\n [![Coverage Status](https://img.shields.io/coveralls/jadejs/jade/master.svg?style=flat)](https://coveralls.io/r/jadejs/jade?branch=master)\n [![Dependency Status](https://img.shields.io/david/jadejs/jade.svg?style=flat)](https://david-dm.org/jadejs/jade)\n [![devDependencies Status](https://img.shields.io/david/dev/jadejs/jade.svg?style=flat)](https://david-dm.org/jadejs/jade#info=devDependencies)\n [![NPM version](https://img.shields.io/npm/v/jade.svg?style=flat)](http://badge.fury.io/js/jade)\n [![Join Gitter Chat](https://img.shields.io/badge/gitter-join%20chat%20%E2%86%92-brightgreen.svg?style=flat)](https://gitter.im/jadejs/jade?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)\n\n## Installation\n\nvia npm:\n\n```bash\n$ npm install jade\n```\n\n## Syntax\n\nJade is a clean, whitespace sensitive syntax for writing html.  Here is a simple example:\n\n```jade\ndoctype html\nhtml(lang="en")\n  head\n    title= pageTitle\n    script(type=\'text/javascript\').\n      if (foo) bar(1 + 5)\n  body\n    h1 Jade - node template engine\n    #container.col\n      if youAreUsingJade\n        p You are amazing\n      else\n        p Get on it!\n      p.\n        Jade is a terse and simple templating language with a\n        strong focus on performance and powerful features.\n```\n\nbecomes\n\n\n```html\n<!DOCTYPE html>\n<html lang="en">\n  <head>\n    <title>Jade</title>\n    <script type="text/javascript">\n      if (foo) bar(1 + 5)\n    </script>\n  </head>\n  <body>\n    <h1>Jade - node template engine</h1>\n    <div id="container" class="col">\n      <p>You are amazing</p>\n      <p>Jade is a terse and simple templating language with a strong focus on performance and powerful features.</p>\n    </div>\n  </body>\n</html>\n```\n\nThe official [jade tutorial](http://jade-lang.com/tutorial/) is a great place to start.  While that (and the syntax documentation) is being finished, you can view some of the old documentation [here](https://github.com/jadejs/jade/blob/master/jade.md) and [here](https://github.com/jadejs/jade/blob/master/jade-language.md)\n\n## API\n\nFor full API, see [jade-lang.com/api](http://jade-lang.com/api/)\n\n```js\nvar jade = require(\'jade\');\n\n// compile\nvar fn = jade.compile(\'string of jade\', options);\nvar html = fn(locals);\n\n// render\nvar html = jade.render(\'string of jade\', merge(options, locals));\n\n// renderFile\nvar html = jade.renderFile(\'filename.jade\', merge(options, locals));\n```\n\n### Options\n\n - `filename`  Used in exceptions, and required when using includes\n - `compileDebug`  When `false` no debug instrumentation is compiled\n - `pretty`    Add pretty-indentation whitespace to output _(false by default)_\n\n## Browser Support\n\n The latest version of jade can be download for the browser in standalone form from [here](https://github.com/jadejs/jade/raw/master/jade.js).  It only supports the very latest browsers though, and is a large file.  It is recommended that you pre-compile your jade templates to JavaScript and then just use the [runtime.js](https://github.com/jadejs/jade/raw/master/runtime.js) library on the client.\n\n To compile a template for use on the client using the command line, do:\n\n```console\n$ jade --client --no-debug filename.jade\n```\n\nwhich will produce `filename.js` containing the compiled template.\n\n## Command Line\n\nAfter installing the latest version of [node](http://nodejs.org/), install with:\n\n```console\n$ npm install jade -g\n```\n\nand run with\n\n```console\n$ jade --help\n```\n\n## Additional Resources\n\nTutorials:\n\n  - cssdeck interactive [Jade syntax tutorial](http://cssdeck.com/labs/learning-the-jade-templating-engine-syntax)\n  - cssdeck interactive [Jade logic tutorial](http://cssdeck.com/labs/jade-templating-tutorial-codecast-part-2)\n  - [Jade について。](https://gist.github.com/japboy/5402844) (A Japanese Tutorial)\n  - [Jade - 模板引擎](https://github.com/jadejs/jade/blob/master/Readme_zh-cn.md)\n\nImplementations in other languages:\n\n  - [php](http://github.com/everzet/jade.php)\n  - [scala](http://scalate.fusesource.org/versions/snapshot/documentation/scaml-reference.html)\n  - [ruby](https://github.com/slim-template/slim)\n  - [python](https://github.com/SyrusAkbary/pyjade)\n  - [java](https://github.com/neuland/jade4j)\n\nOther:\n\n  - [Emacs Mode](https://github.com/brianc/jade-mode)\n  - [Vim Syntax](https://github.com/digitaltoad/vim-jade)\n  - [TextMate Bundle](http://github.com/miksago/jade-tmbundle)\n  - [Coda/SubEtha syntax Mode](https://github.com/aaronmccall/jade.mode)\n  - [Screencasts](http://tjholowaychuk.com/post/1004255394/jade-screencast-template-engine-for-nodejs)\n  - [html2jade](https://github.com/donpark/html2jade) converter\n  - [jade2php](https://github.com/SE7ENSKY/jade2php) converter\n  - [Jade Server](https://github.com/ded/jade-server)  Ideal for building local prototypes apart from any application\n\n## License\n\nMIT\n',
+63 silly resolved     readmeFilename: 'README.md',
+63 silly resolved     bugs: { url: 'https://github.com/jadejs/jade/issues' },
+63 silly resolved     _id: 'jade@1.11.0',
+63 silly resolved     _from: 'jade@~1.11.0' } ]
+64 info install jade@1.11.0 into /Users/sakura/Desktop/expressapp/upload
+65 info installOne jade@1.11.0
+66 verbose from cache /Users/sakura/.npm/jade/1.11.0/package/package.json
+67 info /Users/sakura/Desktop/expressapp/upload/node_modules/jade unbuild
+68 verbose read json /Users/sakura/Desktop/expressapp/upload/node_modules/jade/package.json
+69 verbose tar unpack /Users/sakura/.npm/jade/1.11.0/package.tgz
+70 silly lockFile 77c2f801-ressapp-upload-node-modules-jade tar:///Users/sakura/Desktop/expressapp/upload/node_modules/jade
+71 verbose lock tar:///Users/sakura/Desktop/expressapp/upload/node_modules/jade /Users/sakura/.npm/77c2f801-ressapp-upload-node-modules-jade.lock
+72 silly lockFile 1e3f7ae4-kura-npm-jade-1-11-0-package-tgz tar:///Users/sakura/.npm/jade/1.11.0/package.tgz
+73 verbose lock tar:///Users/sakura/.npm/jade/1.11.0/package.tgz /Users/sakura/.npm/1e3f7ae4-kura-npm-jade-1-11-0-package-tgz.lock
+74 silly gunzTarPerm modes [ '755', '644' ]
+75 silly gunzTarPerm extractEntry package.json
+76 silly gunzTarPerm extractEntry .npmignore
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm extractEntry LICENSE
+79 silly gunzTarPerm extractEntry release.js
+80 silly gunzTarPerm extractEntry jade.js
+81 silly gunzTarPerm extractEntry runtime.js
+82 silly gunzTarPerm extractEntry component.json
+83 silly gunzTarPerm extractEntry .release.json
+84 silly gunzTarPerm extractEntry lib/compiler.js
+85 silly gunzTarPerm extractEntry lib/filters-client.js
+86 silly gunzTarPerm extractEntry lib/filters.js
+87 silly gunzTarPerm extractEntry lib/index.js
+88 silly gunzTarPerm extractEntry lib/doctypes.js
+89 silly gunzTarPerm extractEntry lib/lexer.js
+90 silly gunzTarPerm extractEntry lib/runtime.js
+91 silly gunzTarPerm extractEntry lib/parser.js
+92 silly gunzTarPerm extractEntry lib/utils.js
+93 silly gunzTarPerm extractEntry lib/inline-tags.js
+94 silly gunzTarPerm extractEntry lib/nodes/attrs.js
+95 silly gunzTarPerm extractEntry lib/nodes/code.js
+96 silly gunzTarPerm extractEntry lib/nodes/comment.js
+97 silly gunzTarPerm extractEntry lib/nodes/doctype.js
+98 silly gunzTarPerm extractEntry lib/nodes/each.js
+99 silly gunzTarPerm extractEntry lib/nodes/case.js
+100 silly gunzTarPerm extractEntry lib/nodes/index.js
+101 silly gunzTarPerm extractEntry lib/nodes/literal.js
+102 silly gunzTarPerm extractEntry lib/nodes/mixin-block.js
+103 silly gunzTarPerm extractEntry lib/nodes/mixin.js
+104 silly gunzTarPerm extractEntry lib/nodes/node.js
+105 silly gunzTarPerm extractEntry lib/nodes/block.js
+106 silly gunzTarPerm extractEntry lib/nodes/tag.js
+107 silly gunzTarPerm extractEntry lib/nodes/block-comment.js
+108 silly gunzTarPerm extractEntry lib/nodes/text.js
+109 silly gunzTarPerm extractEntry lib/nodes/filter.js
+110 silly gunzTarPerm extractEntry bin/jade.js
+111 silly gunzTarPerm extractEntry Readme_zh-cn.md
+112 silly gunzTarPerm extractEntry block-code.html
+113 verbose read json /Users/sakura/Desktop/expressapp/upload/node_modules/jade/package.json
+114 silly lockFile 77c2f801-ressapp-upload-node-modules-jade tar:///Users/sakura/Desktop/expressapp/upload/node_modules/jade
+115 silly lockFile 77c2f801-ressapp-upload-node-modules-jade tar:///Users/sakura/Desktop/expressapp/upload/node_modules/jade
+116 silly lockFile 1e3f7ae4-kura-npm-jade-1-11-0-package-tgz tar:///Users/sakura/.npm/jade/1.11.0/package.tgz
+117 silly lockFile 1e3f7ae4-kura-npm-jade-1-11-0-package-tgz tar:///Users/sakura/.npm/jade/1.11.0/package.tgz
+118 info preinstall jade@1.11.0
+119 verbose from cache /Users/sakura/Desktop/expressapp/upload/node_modules/jade/package.json
+120 verbose readDependencies using package.json deps
+121 verbose from cache /Users/sakura/Desktop/expressapp/upload/node_modules/jade/package.json
+122 verbose readDependencies using package.json deps
+123 verbose cache add [ 'character-parser@1.2.1', null ]
+124 verbose cache add name=undefined spec="character-parser@1.2.1" args=["character-parser@1.2.1",null]
+125 verbose parsed url { protocol: null,
+125 verbose parsed url   slashes: null,
+125 verbose parsed url   auth: null,
+125 verbose parsed url   host: null,
+125 verbose parsed url   port: null,
+125 verbose parsed url   hostname: null,
+125 verbose parsed url   hash: null,
+125 verbose parsed url   search: null,
+125 verbose parsed url   query: null,
+125 verbose parsed url   pathname: 'character-parser@1.2.1',
+125 verbose parsed url   path: 'character-parser@1.2.1',
+125 verbose parsed url   href: 'character-parser@1.2.1' }
+126 verbose cache add name="character-parser" spec="1.2.1" args=["character-parser","1.2.1"]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: '1.2.1',
+127 verbose parsed url   path: '1.2.1',
+127 verbose parsed url   href: '1.2.1' }
+128 verbose addNamed [ 'character-parser', '1.2.1' ]
+129 verbose addNamed [ '1.2.1', '1.2.1' ]
+130 silly lockFile 91ff6256-character-parser-1-2-1 character-parser@1.2.1
+131 verbose lock character-parser@1.2.1 /Users/sakura/.npm/91ff6256-character-parser-1-2-1.lock
+132 verbose cache add [ 'clean-css@^3.1.9', null ]
+133 verbose cache add name=undefined spec="clean-css@^3.1.9" args=["clean-css@^3.1.9",null]
+134 verbose parsed url { protocol: null,
+134 verbose parsed url   slashes: null,
+134 verbose parsed url   auth: null,
+134 verbose parsed url   host: null,
+134 verbose parsed url   port: null,
+134 verbose parsed url   hostname: null,
+134 verbose parsed url   hash: null,
+134 verbose parsed url   search: null,
+134 verbose parsed url   query: null,
+134 verbose parsed url   pathname: 'clean-css@^3.1.9',
+134 verbose parsed url   path: 'clean-css@^3.1.9',
+134 verbose parsed url   href: 'clean-css@^3.1.9' }
+135 verbose cache add name="clean-css" spec="^3.1.9" args=["clean-css","^3.1.9"]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: '^3.1.9',
+136 verbose parsed url   path: '^3.1.9',
+136 verbose parsed url   href: '^3.1.9' }
+137 verbose addNamed [ 'clean-css', '^3.1.9' ]
+138 verbose addNamed [ null, null ]
+139 silly lockFile 31b4a7a4-clean-css-3-1-9 clean-css@^3.1.9
+140 verbose lock clean-css@^3.1.9 /Users/sakura/.npm/31b4a7a4-clean-css-3-1-9.lock
+141 verbose cache add [ 'commander@~2.6.0', null ]
+142 verbose cache add name=undefined spec="commander@~2.6.0" args=["commander@~2.6.0",null]
+143 verbose parsed url { protocol: null,
+143 verbose parsed url   slashes: null,
+143 verbose parsed url   auth: null,
+143 verbose parsed url   host: null,
+143 verbose parsed url   port: null,
+143 verbose parsed url   hostname: null,
+143 verbose parsed url   hash: null,
+143 verbose parsed url   search: null,
+143 verbose parsed url   query: null,
+143 verbose parsed url   pathname: 'commander@~2.6.0',
+143 verbose parsed url   path: 'commander@~2.6.0',
+143 verbose parsed url   href: 'commander@~2.6.0' }
+144 verbose cache add name="commander" spec="~2.6.0" args=["commander","~2.6.0"]
+145 verbose parsed url { protocol: null,
+145 verbose parsed url   slashes: null,
+145 verbose parsed url   auth: null,
+145 verbose parsed url   host: null,
+145 verbose parsed url   port: null,
+145 verbose parsed url   hostname: null,
+145 verbose parsed url   hash: null,
+145 verbose parsed url   search: null,
+145 verbose parsed url   query: null,
+145 verbose parsed url   pathname: '~2.6.0',
+145 verbose parsed url   path: '~2.6.0',
+145 verbose parsed url   href: '~2.6.0' }
+146 verbose addNamed [ 'commander', '~2.6.0' ]
+147 verbose addNamed [ null, '>=2.6.0- <2.7.0-' ]
+148 silly lockFile 45671e7d-commander-2-6-0 commander@~2.6.0
+149 verbose lock commander@~2.6.0 /Users/sakura/.npm/45671e7d-commander-2-6-0.lock
+150 info addNameTag [ 'clean-css', '^3.1.9' ]
+151 verbose cache add [ 'constantinople@~3.0.1', null ]
+152 verbose cache add name=undefined spec="constantinople@~3.0.1" args=["constantinople@~3.0.1",null]
+153 verbose parsed url { protocol: null,
+153 verbose parsed url   slashes: null,
+153 verbose parsed url   auth: null,
+153 verbose parsed url   host: null,
+153 verbose parsed url   port: null,
+153 verbose parsed url   hostname: null,
+153 verbose parsed url   hash: null,
+153 verbose parsed url   search: null,
+153 verbose parsed url   query: null,
+153 verbose parsed url   pathname: 'constantinople@~3.0.1',
+153 verbose parsed url   path: 'constantinople@~3.0.1',
+153 verbose parsed url   href: 'constantinople@~3.0.1' }
+154 verbose cache add name="constantinople" spec="~3.0.1" args=["constantinople","~3.0.1"]
+155 verbose parsed url { protocol: null,
+155 verbose parsed url   slashes: null,
+155 verbose parsed url   auth: null,
+155 verbose parsed url   host: null,
+155 verbose parsed url   port: null,
+155 verbose parsed url   hostname: null,
+155 verbose parsed url   hash: null,
+155 verbose parsed url   search: null,
+155 verbose parsed url   query: null,
+155 verbose parsed url   pathname: '~3.0.1',
+155 verbose parsed url   path: '~3.0.1',
+155 verbose parsed url   href: '~3.0.1' }
+156 verbose addNamed [ 'constantinople', '~3.0.1' ]
+157 verbose addNamed [ null, '>=3.0.1- <3.1.0-' ]
+158 silly lockFile 92b3c765-constantinople-3-0-1 constantinople@~3.0.1
+159 verbose lock constantinople@~3.0.1 /Users/sakura/.npm/92b3c765-constantinople-3-0-1.lock
+160 verbose cache add [ 'jstransformer@0.0.2', null ]
+161 verbose cache add name=undefined spec="jstransformer@0.0.2" args=["jstransformer@0.0.2",null]
+162 verbose parsed url { protocol: null,
+162 verbose parsed url   slashes: null,
+162 verbose parsed url   auth: null,
+162 verbose parsed url   host: null,
+162 verbose parsed url   port: null,
+162 verbose parsed url   hostname: null,
+162 verbose parsed url   hash: null,
+162 verbose parsed url   search: null,
+162 verbose parsed url   query: null,
+162 verbose parsed url   pathname: 'jstransformer@0.0.2',
+162 verbose parsed url   path: 'jstransformer@0.0.2',
+162 verbose parsed url   href: 'jstransformer@0.0.2' }
+163 verbose cache add name="jstransformer" spec="0.0.2" args=["jstransformer","0.0.2"]
+164 verbose parsed url { protocol: null,
+164 verbose parsed url   slashes: null,
+164 verbose parsed url   auth: null,
+164 verbose parsed url   host: null,
+164 verbose parsed url   port: null,
+164 verbose parsed url   hostname: null,
+164 verbose parsed url   hash: null,
+164 verbose parsed url   search: null,
+164 verbose parsed url   query: null,
+164 verbose parsed url   pathname: '0.0.2',
+164 verbose parsed url   path: '0.0.2',
+164 verbose parsed url   href: '0.0.2' }
+165 verbose addNamed [ 'jstransformer', '0.0.2' ]
+166 verbose addNamed [ '0.0.2', '0.0.2' ]
+167 silly lockFile 9d587b08-jstransformer-0-0-2 jstransformer@0.0.2
+168 verbose lock jstransformer@0.0.2 /Users/sakura/.npm/9d587b08-jstransformer-0-0-2.lock
+169 silly addNameRange { name: 'commander', range: '>=2.6.0- <2.7.0-', hasData: false }
+170 silly addNameRange { name: 'constantinople',
+170 silly addNameRange   range: '>=3.0.1- <3.1.0-',
+170 silly addNameRange   hasData: false }
+171 verbose cache add [ 'mkdirp@~0.5.0', null ]
+172 verbose cache add name=undefined spec="mkdirp@~0.5.0" args=["mkdirp@~0.5.0",null]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: 'mkdirp@~0.5.0',
+173 verbose parsed url   path: 'mkdirp@~0.5.0',
+173 verbose parsed url   href: 'mkdirp@~0.5.0' }
+174 verbose cache add name="mkdirp" spec="~0.5.0" args=["mkdirp","~0.5.0"]
+175 verbose parsed url { protocol: null,
+175 verbose parsed url   slashes: null,
+175 verbose parsed url   auth: null,
+175 verbose parsed url   host: null,
+175 verbose parsed url   port: null,
+175 verbose parsed url   hostname: null,
+175 verbose parsed url   hash: null,
+175 verbose parsed url   search: null,
+175 verbose parsed url   query: null,
+175 verbose parsed url   pathname: '~0.5.0',
+175 verbose parsed url   path: '~0.5.0',
+175 verbose parsed url   href: '~0.5.0' }
+176 verbose addNamed [ 'mkdirp', '~0.5.0' ]
+177 verbose addNamed [ null, '>=0.5.0- <0.6.0-' ]
+178 silly lockFile 3880d7a6-mkdirp-0-5-0 mkdirp@~0.5.0
+179 verbose lock mkdirp@~0.5.0 /Users/sakura/.npm/3880d7a6-mkdirp-0-5-0.lock
+180 verbose cache add [ 'transformers@2.1.0', null ]
+181 verbose cache add name=undefined spec="transformers@2.1.0" args=["transformers@2.1.0",null]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: 'transformers@2.1.0',
+182 verbose parsed url   path: 'transformers@2.1.0',
+182 verbose parsed url   href: 'transformers@2.1.0' }
+183 verbose cache add name="transformers" spec="2.1.0" args=["transformers","2.1.0"]
+184 verbose parsed url { protocol: null,
+184 verbose parsed url   slashes: null,
+184 verbose parsed url   auth: null,
+184 verbose parsed url   host: null,
+184 verbose parsed url   port: null,
+184 verbose parsed url   hostname: null,
+184 verbose parsed url   hash: null,
+184 verbose parsed url   search: null,
+184 verbose parsed url   query: null,
+184 verbose parsed url   pathname: '2.1.0',
+184 verbose parsed url   path: '2.1.0',
+184 verbose parsed url   href: '2.1.0' }
+185 verbose addNamed [ 'transformers', '2.1.0' ]
+186 verbose addNamed [ '2.1.0', '2.1.0' ]
+187 silly lockFile 8f87aaee-transformers-2-1-0 transformers@2.1.0
+188 verbose lock transformers@2.1.0 /Users/sakura/.npm/8f87aaee-transformers-2-1-0.lock
+189 verbose cache add [ 'uglify-js@^2.4.19', null ]
+190 verbose cache add name=undefined spec="uglify-js@^2.4.19" args=["uglify-js@^2.4.19",null]
+191 verbose parsed url { protocol: null,
+191 verbose parsed url   slashes: null,
+191 verbose parsed url   auth: null,
+191 verbose parsed url   host: null,
+191 verbose parsed url   port: null,
+191 verbose parsed url   hostname: null,
+191 verbose parsed url   hash: null,
+191 verbose parsed url   search: null,
+191 verbose parsed url   query: null,
+191 verbose parsed url   pathname: 'uglify-js@^2.4.19',
+191 verbose parsed url   path: 'uglify-js@^2.4.19',
+191 verbose parsed url   href: 'uglify-js@^2.4.19' }
+192 verbose cache add name="uglify-js" spec="^2.4.19" args=["uglify-js","^2.4.19"]
+193 verbose parsed url { protocol: null,
+193 verbose parsed url   slashes: null,
+193 verbose parsed url   auth: null,
+193 verbose parsed url   host: null,
+193 verbose parsed url   port: null,
+193 verbose parsed url   hostname: null,
+193 verbose parsed url   hash: null,
+193 verbose parsed url   search: null,
+193 verbose parsed url   query: null,
+193 verbose parsed url   pathname: '^2.4.19',
+193 verbose parsed url   path: '^2.4.19',
+193 verbose parsed url   href: '^2.4.19' }
+194 verbose addNamed [ 'uglify-js', '^2.4.19' ]
+195 verbose addNamed [ null, null ]
+196 silly lockFile 12b1aaf8-uglify-js-2-4-19 uglify-js@^2.4.19
+197 verbose lock uglify-js@^2.4.19 /Users/sakura/.npm/12b1aaf8-uglify-js-2-4-19.lock
+198 silly addNameRange { name: 'mkdirp', range: '>=0.5.0- <0.6.0-', hasData: false }
+199 verbose cache add [ 'void-elements@~2.0.1', null ]
+200 verbose cache add name=undefined spec="void-elements@~2.0.1" args=["void-elements@~2.0.1",null]
+201 verbose parsed url { protocol: null,
+201 verbose parsed url   slashes: null,
+201 verbose parsed url   auth: null,
+201 verbose parsed url   host: null,
+201 verbose parsed url   port: null,
+201 verbose parsed url   hostname: null,
+201 verbose parsed url   hash: null,
+201 verbose parsed url   search: null,
+201 verbose parsed url   query: null,
+201 verbose parsed url   pathname: 'void-elements@~2.0.1',
+201 verbose parsed url   path: 'void-elements@~2.0.1',
+201 verbose parsed url   href: 'void-elements@~2.0.1' }
+202 verbose cache add name="void-elements" spec="~2.0.1" args=["void-elements","~2.0.1"]
+203 verbose parsed url { protocol: null,
+203 verbose parsed url   slashes: null,
+203 verbose parsed url   auth: null,
+203 verbose parsed url   host: null,
+203 verbose parsed url   port: null,
+203 verbose parsed url   hostname: null,
+203 verbose parsed url   hash: null,
+203 verbose parsed url   search: null,
+203 verbose parsed url   query: null,
+203 verbose parsed url   pathname: '~2.0.1',
+203 verbose parsed url   path: '~2.0.1',
+203 verbose parsed url   href: '~2.0.1' }
+204 verbose addNamed [ 'void-elements', '~2.0.1' ]
+205 verbose addNamed [ null, '>=2.0.1- <2.1.0-' ]
+206 silly lockFile c684dd2b-void-elements-2-0-1 void-elements@~2.0.1
+207 verbose lock void-elements@~2.0.1 /Users/sakura/.npm/c684dd2b-void-elements-2-0-1.lock
+208 verbose cache add [ 'with@~4.0.0', null ]
+209 verbose cache add name=undefined spec="with@~4.0.0" args=["with@~4.0.0",null]
+210 verbose parsed url { protocol: null,
+210 verbose parsed url   slashes: null,
+210 verbose parsed url   auth: null,
+210 verbose parsed url   host: null,
+210 verbose parsed url   port: null,
+210 verbose parsed url   hostname: null,
+210 verbose parsed url   hash: null,
+210 verbose parsed url   search: null,
+210 verbose parsed url   query: null,
+210 verbose parsed url   pathname: 'with@~4.0.0',
+210 verbose parsed url   path: 'with@~4.0.0',
+210 verbose parsed url   href: 'with@~4.0.0' }
+211 verbose cache add name="with" spec="~4.0.0" args=["with","~4.0.0"]
+212 verbose parsed url { protocol: null,
+212 verbose parsed url   slashes: null,
+212 verbose parsed url   auth: null,
+212 verbose parsed url   host: null,
+212 verbose parsed url   port: null,
+212 verbose parsed url   hostname: null,
+212 verbose parsed url   hash: null,
+212 verbose parsed url   search: null,
+212 verbose parsed url   query: null,
+212 verbose parsed url   pathname: '~4.0.0',
+212 verbose parsed url   path: '~4.0.0',
+212 verbose parsed url   href: '~4.0.0' }
+213 verbose addNamed [ 'with', '~4.0.0' ]
+214 verbose addNamed [ null, '>=4.0.0- <4.1.0-' ]
+215 silly lockFile 092b1cc1-with-4-0-0 with@~4.0.0
+216 verbose lock with@~4.0.0 /Users/sakura/.npm/092b1cc1-with-4-0-0.lock
+217 info addNameTag [ 'uglify-js', '^2.4.19' ]
+218 verbose url raw character-parser/1.2.1
+219 verbose url resolving [ 'https://registry.npmjs.org/', './character-parser/1.2.1' ]
+220 verbose url resolved https://registry.npmjs.org/character-parser/1.2.1
+221 info trying registry request attempt 1 at 10:51:46
+222 verbose etag "1CPZDF5M02Q9FZMP503UYC4E9"
+223 http GET https://registry.npmjs.org/character-parser/1.2.1
+224 silly addNameRange { name: 'void-elements',
+224 silly addNameRange   range: '>=2.0.1- <2.1.0-',
+224 silly addNameRange   hasData: false }
+225 silly addNameRange { name: 'with', range: '>=4.0.0- <4.1.0-', hasData: false }
+226 verbose url raw clean-css
+227 verbose url resolving [ 'https://registry.npmjs.org/', './clean-css' ]
+228 verbose url resolved https://registry.npmjs.org/clean-css
+229 info trying registry request attempt 1 at 10:51:46
+230 verbose etag "5990df0b-48edb"
+231 http GET https://registry.npmjs.org/clean-css
+232 verbose url raw commander
+233 verbose url resolving [ 'https://registry.npmjs.org/', './commander' ]
+234 verbose url resolved https://registry.npmjs.org/commander
+235 info trying registry request attempt 1 at 10:51:46
+236 verbose etag "5994b206-114aa"
+237 http GET https://registry.npmjs.org/commander
+238 verbose url raw constantinople
+239 verbose url resolving [ 'https://registry.npmjs.org/', './constantinople' ]
+240 verbose url resolved https://registry.npmjs.org/constantinople
+241 info trying registry request attempt 1 at 10:51:46
+242 verbose etag "57597f14-2d51"
+243 http GET https://registry.npmjs.org/constantinople
+244 verbose url raw jstransformer/0.0.2
+245 verbose url resolving [ 'https://registry.npmjs.org/', './jstransformer/0.0.2' ]
+246 verbose url resolved https://registry.npmjs.org/jstransformer/0.0.2
+247 info trying registry request attempt 1 at 10:51:46
+248 verbose etag "ALDE2S1J1ZTKYQSHK6UKR8NA"
+249 http GET https://registry.npmjs.org/jstransformer/0.0.2
+250 verbose url raw mkdirp
+251 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+252 verbose url resolved https://registry.npmjs.org/mkdirp
+253 info trying registry request attempt 1 at 10:51:46
+254 verbose etag "5994b209-65d6"
+255 http GET https://registry.npmjs.org/mkdirp
+256 verbose url raw transformers/2.1.0
+257 verbose url resolving [ 'https://registry.npmjs.org/', './transformers/2.1.0' ]
+258 verbose url resolved https://registry.npmjs.org/transformers/2.1.0
+259 info trying registry request attempt 1 at 10:51:46
+260 verbose etag "7R0P7VYFJ1BK7OKN1QC526174"
+261 http GET https://registry.npmjs.org/transformers/2.1.0
+262 verbose url raw uglify-js
+263 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js' ]
+264 verbose url resolved https://registry.npmjs.org/uglify-js
+265 info trying registry request attempt 1 at 10:51:46
+266 verbose etag "59954e7c-373fd"
+267 http GET https://registry.npmjs.org/uglify-js
+268 verbose url raw void-elements
+269 verbose url resolving [ 'https://registry.npmjs.org/', './void-elements' ]
+270 verbose url resolved https://registry.npmjs.org/void-elements
+271 info trying registry request attempt 1 at 10:51:46
+272 verbose etag "5880edf9-22b1"
+273 http GET https://registry.npmjs.org/void-elements
+274 verbose url raw with
+275 verbose url resolving [ 'https://registry.npmjs.org/', './with' ]
+276 verbose url resolved https://registry.npmjs.org/with
+277 info trying registry request attempt 1 at 10:51:46
+278 verbose etag "575229de-4f59"
+279 http GET https://registry.npmjs.org/with
+280 http 304 https://registry.npmjs.org/commander
+281 silly registry.get cb [ 304,
+281 silly registry.get   { date: 'Fri, 18 Aug 2017 01:51:46 GMT',
+281 silly registry.get     via: '1.1 varnish',
+281 silly registry.get     'cache-control': 'max-age=300',
+281 silly registry.get     etag: '"5994b206-114aa"',
+281 silly registry.get     age: '181',
+281 silly registry.get     connection: 'keep-alive',
+281 silly registry.get     'x-served-by': 'cache-nrt6133-NRT',
+281 silly registry.get     'x-cache': 'HIT',
+281 silly registry.get     'x-cache-hits': '1',
+281 silly registry.get     'x-timer': 'S1503021106.244809,VS0,VE1',
+281 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+282 verbose etag commander from cache
+283 silly addNameRange number 2 { name: 'commander', range: '>=2.6.0- <2.7.0-', hasData: true }
+284 silly addNameRange versions [ 'commander',
+284 silly addNameRange   [ '0.0.1',
+284 silly addNameRange     '0.0.3',
+284 silly addNameRange     '0.0.4',
+284 silly addNameRange     '0.0.5',
+284 silly addNameRange     '0.1.0',
+284 silly addNameRange     '0.2.0',
+284 silly addNameRange     '0.2.1',
+284 silly addNameRange     '0.3.0',
+284 silly addNameRange     '0.3.1',
+284 silly addNameRange     '0.3.2',
+284 silly addNameRange     '0.3.3',
+284 silly addNameRange     '0.4.0',
+284 silly addNameRange     '0.4.1',
+284 silly addNameRange     '0.4.2',
+284 silly addNameRange     '0.4.3',
+284 silly addNameRange     '0.5.0',
+284 silly addNameRange     '0.5.1',
+284 silly addNameRange     '0.6.0',
+284 silly addNameRange     '0.6.1',
+284 silly addNameRange     '0.5.2',
+284 silly addNameRange     '1.0.0',
+284 silly addNameRange     '1.0.1',
+284 silly addNameRange     '1.0.2',
+284 silly addNameRange     '1.0.3',
+284 silly addNameRange     '1.0.4',
+284 silly addNameRange     '1.0.5',
+284 silly addNameRange     '1.1.0',
+284 silly addNameRange     '1.1.1',
+284 silly addNameRange     '1.2.0',
+284 silly addNameRange     '1.3.0',
+284 silly addNameRange     '1.3.1',
+284 silly addNameRange     '1.3.2',
+284 silly addNameRange     '2.0.0',
+284 silly addNameRange     '2.1.0',
+284 silly addNameRange     '2.2.0',
+284 silly addNameRange     '2.3.0',
+284 silly addNameRange     '2.4.0',
+284 silly addNameRange     '2.5.0',
+284 silly addNameRange     '2.5.1',
+284 silly addNameRange     '2.6.0',
+284 silly addNameRange     '2.7.0',
+284 silly addNameRange     '2.7.1',
+284 silly addNameRange     '2.8.0',
+284 silly addNameRange     '2.8.1',
+284 silly addNameRange     '2.9.0',
+284 silly addNameRange     '2.10.0',
+284 silly addNameRange     '2.11.0' ] ]
+285 verbose addNamed [ 'commander', '2.6.0' ]
+286 verbose addNamed [ '2.6.0', '2.6.0' ]
+287 silly lockFile 4a88e42c-commander-2-6-0 commander@2.6.0
+288 verbose lock commander@2.6.0 /Users/sakura/.npm/4a88e42c-commander-2-6-0.lock
+289 http 304 https://registry.npmjs.org/mkdirp
+290 silly registry.get cb [ 304,
+290 silly registry.get   { date: 'Fri, 18 Aug 2017 01:51:46 GMT',
+290 silly registry.get     via: '1.1 varnish',
+290 silly registry.get     'cache-control': 'max-age=300',
+290 silly registry.get     etag: '"5994b209-65d6"',
+290 silly registry.get     age: '216',
+290 silly registry.get     connection: 'keep-alive',
+290 silly registry.get     'x-served-by': 'cache-nrt6133-NRT',
+290 silly registry.get     'x-cache': 'HIT',
+290 silly registry.get     'x-cache-hits': '2',
+290 silly registry.get     'x-timer': 'S1503021106.252814,VS0,VE0',
+290 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+291 verbose etag mkdirp from cache
+292 verbose read json /Users/sakura/.npm/commander/2.6.0/package/package.json
+293 silly addNameRange number 2 { name: 'mkdirp', range: '>=0.5.0- <0.6.0-', hasData: true }
+294 silly addNameRange versions [ 'mkdirp',
+294 silly addNameRange   [ '0.0.1',
+294 silly addNameRange     '0.0.2',
+294 silly addNameRange     '0.0.3',
+294 silly addNameRange     '0.0.4',
+294 silly addNameRange     '0.0.5',
+294 silly addNameRange     '0.0.6',
+294 silly addNameRange     '0.0.7',
+294 silly addNameRange     '0.1.0',
+294 silly addNameRange     '0.2.0',
+294 silly addNameRange     '0.2.1',
+294 silly addNameRange     '0.2.2',
+294 silly addNameRange     '0.3.0',
+294 silly addNameRange     '0.3.1',
+294 silly addNameRange     '0.3.2',
+294 silly addNameRange     '0.3.3',
+294 silly addNameRange     '0.3.4',
+294 silly addNameRange     '0.3.5',
+294 silly addNameRange     '0.4.0',
+294 silly addNameRange     '0.4.1',
+294 silly addNameRange     '0.4.2',
+294 silly addNameRange     '0.5.0',
+294 silly addNameRange     '0.5.1' ] ]
+295 verbose addNamed [ 'mkdirp', '0.5.1' ]
+296 verbose addNamed [ '0.5.1', '0.5.1' ]
+297 silly lockFile 8968b51f-mkdirp-0-5-1 mkdirp@0.5.1
+298 verbose lock mkdirp@0.5.1 /Users/sakura/.npm/8968b51f-mkdirp-0-5-1.lock
+299 verbose read json /Users/sakura/.npm/mkdirp/0.5.1/package/package.json
+300 silly lockFile 4a88e42c-commander-2-6-0 commander@2.6.0
+301 silly lockFile 4a88e42c-commander-2-6-0 commander@2.6.0
+302 silly lockFile 45671e7d-commander-2-6-0 commander@~2.6.0
+303 silly lockFile 45671e7d-commander-2-6-0 commander@~2.6.0
+304 silly lockFile 8968b51f-mkdirp-0-5-1 mkdirp@0.5.1
+305 silly lockFile 8968b51f-mkdirp-0-5-1 mkdirp@0.5.1
+306 silly lockFile 3880d7a6-mkdirp-0-5-0 mkdirp@~0.5.0
+307 silly lockFile 3880d7a6-mkdirp-0-5-0 mkdirp@~0.5.0
+308 http 304 https://registry.npmjs.org/constantinople
+309 silly registry.get cb [ 304,
+309 silly registry.get   { date: 'Fri, 18 Aug 2017 01:51:46 GMT',
+309 silly registry.get     via: '1.1 varnish',
+309 silly registry.get     'cache-control': 'max-age=300',
+309 silly registry.get     etag: '"57597f14-2d51"',
+309 silly registry.get     age: '0',
+309 silly registry.get     connection: 'keep-alive',
+309 silly registry.get     'x-served-by': 'cache-nrt6122-NRT',
+309 silly registry.get     'x-cache': 'MISS',
+309 silly registry.get     'x-cache-hits': '0',
+309 silly registry.get     'x-timer': 'S1503021106.248160,VS0,VE132',
+309 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+310 verbose etag constantinople from cache
+311 http 304 https://registry.npmjs.org/clean-css
+312 silly registry.get cb [ 304,
+312 silly registry.get   { date: 'Fri, 18 Aug 2017 01:51:46 GMT',
+312 silly registry.get     via: '1.1 varnish',
+312 silly registry.get     'cache-control': 'max-age=300',
+312 silly registry.get     etag: '"5990df0b-48edb"',
+312 silly registry.get     age: '0',
+312 silly registry.get     connection: 'keep-alive',
+312 silly registry.get     'x-served-by': 'cache-nrt6125-NRT',
+312 silly registry.get     'x-cache': 'HIT',
+312 silly registry.get     'x-cache-hits': '1',
+312 silly registry.get     'x-timer': 'S1503021106.244196,VS0,VE134',
+312 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+313 verbose etag clean-css from cache
+314 silly addNameRange number 2 { name: 'constantinople',
+314 silly addNameRange   range: '>=3.0.1- <3.1.0-',
+314 silly addNameRange   hasData: true }
+315 silly addNameRange versions [ 'constantinople',
+315 silly addNameRange   [ '1.0.0',
+315 silly addNameRange     '1.0.1',
+315 silly addNameRange     '1.0.2',
+315 silly addNameRange     '2.0.0',
+315 silly addNameRange     '2.0.1',
+315 silly addNameRange     '3.0.0',
+315 silly addNameRange     '3.0.1',
+315 silly addNameRange     '3.0.2',
+315 silly addNameRange     '3.1.0' ] ]
+316 verbose addNamed [ 'constantinople', '3.0.2' ]
+317 verbose addNamed [ '3.0.2', '3.0.2' ]
+318 silly lockFile e1ac6a64-constantinople-3-0-2 constantinople@3.0.2
+319 verbose lock constantinople@3.0.2 /Users/sakura/.npm/e1ac6a64-constantinople-3-0-2.lock
+320 verbose read json /Users/sakura/.npm/constantinople/3.0.2/package/package.json
+321 silly lockFile 31b4a7a4-clean-css-3-1-9 clean-css@^3.1.9
+322 silly lockFile 31b4a7a4-clean-css-3-1-9 clean-css@^3.1.9
+323 verbose about to build /Users/sakura/Desktop/expressapp/upload/node_modules/jade
+324 info /Users/sakura/Desktop/expressapp/upload/node_modules/jade unbuild
+325 verbose from cache /Users/sakura/Desktop/expressapp/upload/node_modules/jade/package.json
+326 info preuninstall jade@1.11.0
+327 info uninstall jade@1.11.0
+328 verbose true,/Users/sakura/Desktop/expressapp/upload/node_modules,/Users/sakura/Desktop/expressapp/upload/node_modules unbuild jade@1.11.0
+329 verbose /Users/sakura/Desktop/expressapp/upload/node_modules/.bin,[object Object] binRoot
+330 info postuninstall jade@1.11.0
+331 silly lockFile e1ac6a64-constantinople-3-0-2 constantinople@3.0.2
+332 silly lockFile e1ac6a64-constantinople-3-0-2 constantinople@3.0.2
+333 silly lockFile 92b3c765-constantinople-3-0-1 constantinople@~3.0.1
+334 silly lockFile 92b3c765-constantinople-3-0-1 constantinople@~3.0.1
+335 error Error: No compatible version found: clean-css@'^3.1.9'
+335 error Valid install targets:
+335 error ["0.1.0","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.3.0","0.3.1","0.3.2","0.3.3","0.4.0","0.4.1","0.4.2","0.5.0","0.6.0","0.7.0","0.8.0","0.8.1","0.8.2","0.8.3","0.9.0","0.9.1","0.10.0","0.10.1","0.10.2","1.0.0","1.0.1","1.0.2","1.0.3","1.0.4","1.0.5","1.0.6","1.0.7","1.0.8","1.0.9","1.0.10","1.0.11","1.0.12","1.1.0","1.1.1","1.1.2","1.1.3","1.1.4","1.1.5","1.1.6","1.1.7","2.0.0","2.0.1","2.0.2","2.0.3","2.0.4","2.0.5","2.0.6","2.0.7","2.0.8","2.1.0","2.1.1","2.1.2","2.1.3","2.1.4","2.1.5","2.1.6","2.1.7","2.1.8","2.2.0","2.2.1","2.2.2","2.2.3","2.2.4","2.2.5","2.2.6","2.2.7","2.2.8","2.2.9","2.2.10","2.2.11","2.2.12","2.2.13","2.2.14","2.2.15","2.2.16","2.2.17","2.2.18","2.2.19","2.2.20","2.2.21","2.2.22","3.0.0","3.0.1","3.0.2","2.2.23","3.0.3","3.0.4","3.0.5","3.0.6","3.0.7","3.0.8","3.0.9","3.0.10","3.1.0","3.1.1","3.1.2","3.1.3","3.1.4","3.1.5","3.1.6","3.1.7","3.1.8","3.1.9","3.2.0","3.2.1","3.2.2","3.2.3","3.2.4","3.2.5","3.2.6","3.2.7","3.2.8","3.2.9","3.2.10","3.2.11","3.3.0","3.3.1","3.3.2","3.3.3","3.3.4","3.3.5","3.3.6","3.3.7","3.3.8","3.3.9","3.3.10","3.4.0","3.4.1","3.4.2","3.4.3","3.4.4","3.4.5","3.4.6","3.4.7","3.4.8","3.4.9","3.4.10","3.4.11","3.4.12","3.4.13","3.4.14","3.4.15","3.4.16","3.4.17","3.4.18","3.4.19","3.4.20","3.4.21","3.4.22","3.4.23","3.4.24","4.0.0","4.0.1","4.0.2","4.0.3","4.0.4","4.0.5","4.0.6","4.0.7","3.4.25","4.0.8","4.0.9","4.0.10","4.0.11","4.0.12","4.1.0","4.1.1","3.4.26","4.0.13","4.1.2","4.1.3","3.4.27","4.1.4","4.1.5","4.1.6","4.1.7","3.4.28"]
+335 error     at installTargetsError (/Users/sakura/.nodebrew/node/v0.10.12/lib/node_modules/npm/lib/cache.js:719:10)
+335 error     at /Users/sakura/.nodebrew/node/v0.10.12/lib/node_modules/npm/lib/cache.js:641:10
+335 error     at saved (/Users/sakura/.nodebrew/node/v0.10.12/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+335 error     at Object.oncomplete (fs.js:107:15)
+336 error If you need help, you may report this log at:
+336 error     <http://github.com/isaacs/npm/issues>
+336 error or email it to:
+336 error     <npm-@googlegroups.com>
+337 error System Darwin 15.6.0
+338 error command "/Users/sakura/.nodebrew/current/bin/node" "/Users/sakura/.nodebrew/current/bin/npm" "install"
+339 error cwd /Users/sakura/Desktop/expressapp/upload
+340 error node -v v0.10.12
+341 error npm -v 1.2.32
+342 verbose exit [ 1, true ]
